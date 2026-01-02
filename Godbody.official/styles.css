@@ -1,0 +1,245 @@
+        body {
+            background:white;
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;  
+              
+        }    
+/*Header and Navigation */
+         header {
+            background:white;
+            padding: 20px;
+            height: 20px;
+         } 
+         nav ul{
+            /* text-align: center;  */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            width: 100%;          
+            font-size: larger;
+            margin: 0;  
+            padding: 0;
+            list-style-type: none;
+         }
+         nav li{                  
+            margin-right: 20px;
+         }
+         li:last-child{
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;            
+         }
+         header a{
+            text-decoration: none;
+            color:black;
+         }
+         header a:hover{
+            text-decoration: underline;
+         }
+         header .logo a {
+            background-image: url("Images/gblogo2.png"); 
+            background-size: 150px;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 90px;
+            position: relative;
+            text-indent: -9999999px;
+            top: -83px;
+            width: 130px; 
+         }    
+/* body */
+/* Large main background images */
+         section{
+            background:white;
+            color: black;
+            padding: 20px;
+            display:flex;
+            flex-direction: row;
+         }  
+         .heros{
+            background-color: black;
+            height: 690px;
+            background-size: 100%;
+            background-position: center;     
+            background-repeat: no-repeat;       
+            text-indent: -999999px; 
+            display: flex;
+            /* flex-direction: column; */
+
+         }
+         .hero{
+            background-image: url("Images/IMG_0291.jpg");
+         }
+         .hero1{ 
+            background-image: url("Images/IMG_0289.jpg");
+         }
+         .hero2{ 
+            background-image: url("Images/IMG_0290.jpg");
+         }
+         .img-descriptions{
+            margin-top: auto;
+            color: white;
+            text-indent: 0px;
+            text-transform: uppercase;
+            font-size: 1.5rem;
+            font-weight: 900;
+         }
+         .img-subcaption{
+            color:white;
+            text-transform: initial;
+            font-weight: 300;
+            font-size: small;
+            text-indent: 0px;
+         }
+         .img-link{
+            color: white;
+            text-indent: 0px;
+            font-size: 1.3rem;
+         }
+         
+         .feature-box { 
+            background-color: white;
+            color: black;
+            padding: 20px;             
+            text-transform: uppercase; 
+               }
+         .feature-box figure{
+            margin: 60px 5px;
+
+         }
+         .feature-box figure img{
+            border: 1px solid white;
+            border-radius: 2%;
+            box-shadow: gray 0 0 10px; 
+            height: 300px;
+            width: 200px;
+         }    
+
+
+/* Main Titles Between Sections */
+main{
+   margin: 5% 1%; 
+   text-transform: uppercase;
+   font-weight:bolder ;
+   font-size: 1.5rem;
+   
+}
+       
+/* Collections, Workouts, Caategories img */
+         .collections, .workouts, .categories{
+            display: flex; 
+            margin: 1%;
+         }
+         .collection, .workout, .category{
+            flex-wrap: nowrap;
+            height: 410px;
+            width: 5000px;
+            background-color: black;
+            color: white;
+            margin: 2px;
+            text-indent: -99999999px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+         }
+         .winter{background-image: url("Images/IMG_0286.jpg");}
+         .spring{background-image: url("Images/IMG_0286.jpg");}
+         .summer{background-image: url("Images/IMG_0286.jpg");}
+         .fall{background-image: url("Images/IMG_0286.jpg");}
+         .lifting{background-image: url("Images/IMG_0286.jpg");}
+         .running{background-image: url("Images/IMG_0286.jpg");}
+         .swimming{background-image: url("Images/IMG_0286.jpg");}
+         .hiit{background-image: url("Images/IMG_0286.jpg");}
+         .men{background-image: url("Images/IMG_0286.jpg");}
+         .women{background-image: url("Images/IMG_0286.jpg");}
+         .accessories{background-image: url("Images/IMG_0286.jpg");}
+/* Text at the bottom of the page */
+         
+         .highlights{
+            display: flex;
+            flex-direction: column;
+         }   
+         .h-text{
+            text-transform: uppercase;
+            font-weight: 900;
+         }
+         .descriptions{
+             font-size: small; 
+         }      
+         footer{
+            background: grey;
+            padding:10px 20px;
+         }
+         
+        
+
+/* media query reesponsive rules */
+
+/* womens mens toggle button */
+/* div .hide{display: none;}     */
+
+/* you can add two arguments to the media screen this is homwwork and fix responsiveness */
+
+@media screen and (max-width: 1350px) {
+     header .desktop, .collection, .workout, .main-1, .main-2
+         { display: none;}
+     header .logo
+         { margin: 20px 10px;}
+     .heros
+         {height: 500px;}
+     .collection, .workout, .category
+         {height: 250px;}
+
+} 
+@media screen and (max-width: 750px) {
+
+     header .desktop, .highlights, .img-subcaption, .main-1,
+     .main-2, .collection, .workout
+         { display: none;}
+     header .logo
+         { margin: 20px 10px;}
+     .img-descriptions, .img-link
+         { font-size: small;}
+     .heros
+         {height: 200px;}
+     .collection, .workout, .category
+         {height: 100px;}
+   
+} 
+@media screen and (max-width: 400px) {
+
+     header .desktop, .highlights, .img-subcaption, .main-1,
+     .main-2, .collection, .workout
+         { display: none;}
+     header .logo
+         { margin: 20px 10px;}
+     .img-descriptions, .img-link
+         { font-size: small;}
+     .heros
+         {height: 140px;}
+     .collection, .workout, .category
+         {height: 55px;}
+   
+} 
+
+
+@media screen and (max-width: 250px) {
+
+     header .desktop, .highlights, .img-subcaption, .main-1,
+     .main-2, .collection, .workout
+         { display: none;}
+     header .logo
+         { margin: 20px 10px;}
+     .img-descriptions, .img-link
+         { font-size: small;}
+     .heros
+         {height: 140px;}
+     .collection, .workout, .category
+         {height: 55px;}
+   
+} 
+

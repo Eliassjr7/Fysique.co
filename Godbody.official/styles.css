@@ -1,64 +1,120 @@
         body {
-            background:white;
-            color:black;
             font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            padding: 0;  
-              
-        }    
-/*Header and Navigation */
+            padding: 0;   
+        }
          header {
+            display: block;
+            position: fixed;  
+            left: 0;
+            right: 0;   
             background:white;
-            padding: 20px;
+            padding: 20px 0px;
             height: 20px;
-         } 
-         nav ul{
-            /* text-align: center;  */
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            width: 100%;          
-            font-size: larger;
+            z-index: 1; 
+         }          
+         .tab-panels ul li{  
+            list-style-type: none;
+            display: inline-block; 
+            
+            margin-right: 0;
+            padding: 3px 10px;
+            border-radius:0;
+            color: black;
+            font-weight: 100;
+            cursor: pointer;
+            position: relative;
+         }
+         li::after{
+            content:"";
+            position: absolute;
+            left:50%;
+            bottom: -10px;
+            height:1px;
+            width: 0;
+            background-color: black;
+            transition: 0.3s ease, left 0.3s ease;
+            transform: translateX(-50%);
+        }
+         .tab-panels ul li.active:hover::after{
+            width: 100%;
+            color: black;
+            /* background: #666; */
+         }
+         .tab-panels .panel{
+            display: none;
+            background: white;
+            padding: 30px;
+            border-radius: 0 0 10px 10px;
+            flex-direction: row;
+         }
+         .tab-panels .panel.active{
+            display: hide;
+         }
+         .tabs {
+            font-size: large;
             margin: 0;  
             padding: 0;
+            display: flex;
+            position: relative; 
+            list-style: none;
+            height: 40px;       
+         }       
+
+         /* Panel tabs */
+         .contents{
+            word-spacing:5px;
+            margin:5px;
+           
+          
+         } 
+         .contents p{ color: darkgray;}
+         .contents li{
             list-style-type: none;
          }
-         nav li{                  
-            margin-right: 20px;
-         }
-         li:last-child{
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;            
-         }
-         header a{
+         .contents li a
+         {
+            color: black;
             text-decoration: none;
-            color:black;
          }
-         header a:hover{
-            text-decoration: underline;
-         }
-         header .logo a {
-            background-image: url("Images/gblogo2.png"); 
-            background-size: 150px;
-            background-repeat: no-repeat;
-            display: inline-block;
-            height: 90px;
-            position: relative;
-            text-indent: -9999999px;
-            top: -83px;
-            width: 130px; 
-         }    
+
+         /* end */
+          ul .logo{
+        display:inline-block;
+        background-repeat: no-repeat;
+        background-image: url('Images/gblogo2.png');
+        background-size: 180px;
+        width: 150px;
+        height: 30px;
+        text-indent: -99999999px;
+        background-position: center;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);        
+    }    
+
 /* body */
+    button{ 
+      padding: 10px 15px; 
+      cursor: pointer; 
+      margin: 10px 15px;  
+      border-radius: 50%; 
+      border: none; 
+   }
+   .btn{
+       position: absolute;
+       /* top: 25px; 
+       left:10px;    */
+   } 
 /* Large main background images */
          section{
             background:white;
             color: black;
             padding: 20px;
             display:flex;
-            flex-direction: row;
+            flex-direction: row; 
          }  
+         
          .heros{
             background-color: black;
             height: 690px;
@@ -67,7 +123,7 @@
             background-repeat: no-repeat;       
             text-indent: -999999px; 
             display: flex;
-            /* flex-direction: column; */
+            flex-direction: column; 
 
          }
          .hero{
@@ -99,18 +155,26 @@
             text-indent: 0px;
             font-size: 1.3rem;
          }
-         
-         .feature-box { 
+         /* this causes all product to align right */
+         #productslides1, #productslides2{
+          background-color: white;
+            display: flex;
+         }
+         .productslider { 
+            /* position: relative; */
+            /* height: 500px;  */
+            overflow: hidden;
             background-color: white;
             color: black;
-            padding: 20px;             
+            padding: 20px;         
             text-transform: uppercase; 
                }
-         .feature-box figure{
+         .productslider figure{
+            float: left;
             margin: 60px 5px;
 
          }
-         .feature-box figure img{
+         .productslider figure img{
             border: 1px solid white;
             border-radius: 2%;
             box-shadow: gray 0 0 10px; 
@@ -129,7 +193,7 @@ main{
 }
        
 /* Collections, Workouts, Caategories img */
-         .collections, .workouts, .categories{
+         .collections, .workouts, .categories {
             display: flex; 
             margin: 1%;
          }
@@ -162,6 +226,7 @@ main{
          .highlights{
             display: flex;
             flex-direction: column;
+            padding: 100px;
          }   
          .h-text{
             text-transform: uppercase;
@@ -170,25 +235,22 @@ main{
          .descriptions{
              font-size: small; 
          }      
-         footer{
-            background: grey;
-            padding:10px 20px;
-         }
+       
          
         
 
 /* media query reesponsive rules */
 
 /* womens mens toggle button */
-/* div .hide{display: none;}     */
+ /* div .hide, div .hide{display: none;}      */
 
 /* you can add two arguments to the media screen this is homwwork and fix responsiveness */
 
-@media screen and (max-width: 1350px) {
-     header .desktop, .collection, .workout, .main-1, .main-2
+ @media screen and (max-width: 1350px) {
+      .collection, .workout, .main-1, .main-2
          { display: none;}
-     header .logo
-         { margin: 20px 10px;}
+     /* header .logo
+         { margin: 20px 10px;} */
      .heros
          {height: 500px;}
      .collection, .workout, .category
@@ -197,11 +259,11 @@ main{
 } 
 @media screen and (max-width: 750px) {
 
-     header .desktop, .highlights, .img-subcaption, .main-1,
+      .tab-panels ul li, .highlights, .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
-     header .logo
-         { margin: 20px 10px;}
+     /* header .logo
+         { margin: 20px 10px;} */
      .img-descriptions, .img-link
          { font-size: small;}
      .heros
@@ -212,11 +274,9 @@ main{
 } 
 @media screen and (max-width: 400px) {
 
-     header .desktop, .highlights, .img-subcaption, .main-1,
+      .highlights, .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
-     header .logo
-         { margin: 20px 10px;}
      .img-descriptions, .img-link
          { font-size: small;}
      .heros
@@ -229,11 +289,9 @@ main{
 
 @media screen and (max-width: 250px) {
 
-     header .desktop, .highlights, .img-subcaption, .main-1,
+      .highlights, .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
-     header .logo
-         { margin: 20px 10px;}
      .img-descriptions, .img-link
          { font-size: small;}
      .heros
@@ -241,5 +299,5 @@ main{
      .collection, .workout, .category
          {height: 55px;}
    
-} 
+}  
 

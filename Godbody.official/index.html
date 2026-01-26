@@ -8,112 +8,193 @@
 </head>
     <body>
     <header>
-        <nav>
-                <ul>
-                    <li class="desktop">
-                        <a href="Pages/Women.html">Women</a>
-                    </li>
-                    <li class="desktop">
-                        <a href="Pages/Men.html">Men</a>
-                    </li>    
-                    <li class="logo">
-                        <a href="index.html">GODBODY LOGO</a>
-                    </li>       
+        <nav class="tab-panels">
+                <ul class="tabs">
+                    <li rel="panel1" class="desktop active">Women</li>
+                    <li rel="panel2" class="desktop ">Men</li>   
+                    <li rel="panel3" class="desktop">Accessories</li>   
+                    <a class="logo" href="index.html">Godbody Logo</a>
                 </ul>
+            <div id="panel1" class="panel active">
+                
+                <div class="contents">
+                    <p>Collections</p>
+                <li><a href="#">Greek Collection</a></li>
+                </div>
+                <div class="contents">
+                <p>T-shirts & Tops</p>
+                <li><a href="#">Compression Fit T-shirts</a></li>
+                <li><a href="#">Tank Tops</a></li>
+                <li><a href="#">Oversized T-shirts</a></li>
+                <li><a href="#">Long Sleeve</a></li>
+                <li><a href="#">Stingers</a></li>
+                <li><a href="#">T-Shirts</a></li>
+                </div>
+                <div class="contents">
+                <p>Bottom Wear</p>
+                <li><a href="#">Sweatpants</a></li>
+                <li><a href="#">Joggers</a></li>
+                <li><a href="#">shorts</a></li>
+                </div>
+                <div class="contents">
+                <p>Outer Wear</p>
+                <li><a href="#">Hoodies</a></li>
+                <li><a href="#">SweatShirts</a></li>
+                <li><a href="#">Wind Breakers</a></li>
+                <li><a href="#">BodySuits</a></li>
+                </div>
+            
+            </div>
+            <div id="panel2" class="panel">
+                <div class="contents">
+                <p>Collections</p>
+                <li><a href="#">Greek Collection</a></li>
+                </div>
+                <div class="contents">
+                <p>T-shirts & Tops </p>
+                <li><a href="#">Compression Fit T-shirts</a></li>
+                <li><a href="#">Sports Bras</a></li>
+                <li><a href="#">Oversized T-shirts</a></li>
+                <li><a href="#">Long Sleeve</a></li>
+                <li><a href="#">T-shirts</a></li>
+                </div>
+                <div class="contents">
+                <p>Bottom Wear</p>
+                <li><a href="#">Sweatpants</a></li>
+                <li><a href="#">Joggers</a></li>
+                <li><a href="#">Shorts</a></li>
+                <li><a href="#">Leggings</a></li>
+                </div>
+                <div class="contents">
+                <p>Outer Wear</p>
+                <li><a href="#">Hoodies</a></li>
+                <li><a href="#">Sweatshirts</a></li>
+                <li><a href="#">Wind Breakers</a></li>
+                <li><a href="#">Bodysuits</a></li>
+                </div>
+            </div>
+            <div id="panel3" class="panel">
+                <div class="contents">
+                <p>Bags</p>
+                <li><a href="#">Backpacks</a></li>
+                <li><a href="#">Cross Body</a></li>
+                <li><a href="#">Duffle bags</a></li>
+                </div>
+                <div class="contents">
+                <p>Equipment</p>    
+                <li><a href="#">Lifting Straps</a></li>
+                <li><a href="#">Lifting Belts</a></li>
+                <li><a href="#">Knee Sleeves</a></li>
+                </div>
+                <div class="contents">
+                <p>Head Wear</p>
+                <li><a href="#">Caps</a></li>
+                <li><a href="#">Skullies</a></li>
+                <li><a href="#">Beanies</a></li>
+                </div>
+            </div>
         </nav>
     </header>
- <body>
+
+    <!-- build tabs -->
+ 
     <section class="heros hero">
          Image <Div class="img-descriptions">Winter Arc Is In Full Effect <br>
                     <P class="img-subcaption">Centuries before you real men killed to survive in this season, what will you do?</P>
                         <a class="img-link" href="" >Shop Now</a>    
                 </Div>
     </section>
-    <section class="feature-box promo"> 
-         <figure>
+    <section id="productslider1" class="productslider">  
+         <div class="btn">
+            <button rel="#productslides1" class="btnsL"><</button>
+            <button rel="#productslides1" class="btnsR">></button>
+        </div>
+        <ul id="productslides1" class="productslides">
+         <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure  class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0286.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>            
         </figure>
+        </ul>
     </section>
     <section class="heros hero1">
         Image <Div class="img-descriptions">Will you get started one day, or will today be day one?<br>
@@ -122,91 +203,97 @@
                     <a class="img-link" href="" >Women</a>
         </Div>
     </section>
-    <section class="feature-box sales">
-        <figure>
+    <section id="productslider2" class="productslider">
+        <div class="btn">
+            <button rel="#productslides2" class="btnsL"><</button>
+            <button rel="#productslides2" class="btnsR">></button>
+        </div>
+        <ul id="productslides2" class="productslides">
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content  <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content  <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content <br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="productslide">
             <img src="Images/IMG_0290.jpg" alt="content">
             <figcaption>content<br> 
                 <p class="descriptions">description of item</p>
                 <p class="descriptions">pricing for item</p>
             </figcaption>
         </figure>
+        </ul>
     </section>
     <section class="heros hero2">
                 Image <Div class="img-descriptions">Body, Mind & Soul With Every Repetion<br>
@@ -214,12 +301,10 @@
                                  balanced in strength, wisdom, and peace.</P>
                                 <a class="img-link" href="" >Shop Now</a>    
                         </Div>
-            </section>
+    </section>
 
         
 <main class="main-1">Limited Time Only Collections</main>
-
-<div class="hide">
     <div class="collections">
         <section class="collection winter">
             image
@@ -236,7 +321,7 @@
     </div>
 <main class="main-2">Popular Right Now</main>
     
-      <div class="workouts">
+    <div class="workouts">
      <section class="workout lifting">
         image
     </section>
@@ -293,9 +378,163 @@
                     </p>
             </paragraph>
     </section>
-    <section></section>
-    <footer>payment</footer>
-    
-<script src="main.js"></script>
+   
+    <!-- <footer>payment<style>
+        .counter-container {
+            font-size: 48px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <h1>Counting with setInterval</h1> -->
+    <!-- This is the element that the JavaScript will update -->
+    <!-- <div id="countDisplay" class="counter-container">
+        0
+    </div></footer> -->
  </body>
-</html>     
+<script src="scripts/jquery-3.7.1.js"></script>
+<script>
+  //make this for the moblie hamburger tab
+  $(function() {
+
+         $('.tab-panels .tabs li').mouseenter(function(){
+             var $panel = $(this).closest('.tab-panels');
+                 $panel.find('.tab li.active').removeClass('active');
+                     $(this).addClass('active').siblings('li').css('color','lightgrey');
+                             $(this).css('color','black');
+                         $('.panel').hide();
+             var panelToShow = $(this).attr('rel');
+                 $('#'+panelToShow).show().mouseleave(function(){
+                     $('#'+panelToShow).hide();
+                         $('.desktop').css ('color','black')
+             });
+         });
+    });
+
+
+'use strict';
+
+$(function(){
+
+    function setupSlider(sliderElement,totalSlides){
+    var currentSlide = 0;
+
+                  function updateButtonColor(){
+                        if(currentSlide === 0)
+                                            {$(sliderElement).find('button.btnsL').css('color','grey').css('background-color','');
+                                            $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
+                                    else if (currentSlide === totalSlides -1)
+                                            {$(sliderElement).find('button.btnsR').css('color','grey').css('background-color','');}
+                                    else {$(sliderElement).find('button.btnsL').css('color','white').css('background-color','black');
+                                        $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
+                    }
+                //configuration
+                var width = 210;
+                var animattionSpeed = 100;
+                // CACHE DOM
+    
+                        $(sliderElement).find('button').click(function(e){
+                            var btnS = $(this).attr('rel');
+                            
+                            if($(this).hasClass('btnsR'))
+                                {if(currentSlide < totalSlides -1)
+                                    {currentSlide++;
+                                        $(btnS).animate({'margin-left':'-='+width},animattionSpeed);}} 
+                            else if ($(this).hasClass('btnsL'))
+                                {if(currentSlide > 0)
+                                    {currentSlide--; 
+                                        $(btnS).animate({'margin-left': '+='+width},animattionSpeed);}}
+                        updateButtonColor();
+                        });
+                        updateButtonColor();
+    }
+    setupSlider('#productslider1',12);
+    setupSlider('#productslider2',12);
+})
+//setInterval takes a time frame and a function (fn, 1000), so every thousand milliseconds it will fire this function.
+// var nextDrop = setInterval(function(){
+//     console.log(new Date());
+// },1000); clearinterval(nextdrop)
+
+
+// Initialize the counter variable
+// let count = 1000;
+
+// // Get the HTML element where the count will be displayed
+// const displayElement = document.getElementById('countDisplay');
+
+// // Function to update the HTML display
+// function updateDisplay() {
+//     displayElement.textContent = count;
+// }
+
+// // Function to increment the counter and update the display
+// function incrementCounter() {
+//     count--;
+//     updateDisplay();
+// }
+
+// Start the interval: call 'incrementCounter' every 1000 milliseconds (1 second)
+// You can also store the interval ID if you need to stop it later using clearInterval(intervalId);
+// const intervalId = setInterval(incrementCounter, 1000);
+    //   $(function(){
+        
+
+    //     function setupSlider(sliderElement,totalSlides){
+    //             var currentSlide = 0;
+    //             // var totalSlides = 11;
+
+    //     function updateButtonColor(){
+    //         if(currentSlide === 0)
+    //                              {$(sliderElement).find('button.btnsL').css('color','grey').css('background-color','');
+    //                              $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
+    //                      else if (currentSlide === totalSlides -1)
+    //                              {$(sliderElement).find('button.btnsR').css('color','grey').css('background-color','');
+    //                              }
+    //                      else {$(sliderElement).find('button.btnsL').css('color','white').css('background-color','black');
+    //                            $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
+    //     }
+
+    //            $(sliderElement).find('button').click(function(e){
+    //                 var btnS = $(this).attr('rel')
+
+    //                 if($(this).hasClass('btnsR'))
+    //                 {if(currentSlide < totalSlides -1)
+    //                         {currentSlide++;
+    //                             $(btnS).animate({'margin-left':'-=450'},100);}}
+    //                 else if  ($(this).hasClass('btnsL')) 
+    //                 {if(currentSlide > 0)
+    //                         {currentSlide--;
+    //                              $(btnS).animate({'margin-left':'+=450'},100);}}
+    //             updateButtonColor();
+    //             });
+    //             updateButtonColor();
+    //         }    
+    //      setupSlider('#productslider1',12);
+    //      setupSlider('#productslider2',12);
+        //  setupSlider('#productslider3',11);
+        //  setupSlider('#productslider4',11);
+   // });
+    //make this for the moblie hamburger tab
+    //$(function(){
+      //  $('.tab-panels .tabs li').on('click', function() {
+        //    var $panel = $(this).closest('.tab-panels')
+          //  $panel.find('.tabs li.active').removeClass('active');
+          //  $(this).addClass('active');
+            // figure out which panel to show 
+         //   var panelToShow = $(this).attr('rel');
+           
+            // hide current panel
+         //   $panel.find('.panel.active').slideUp(300, showNextPanel);
+         //   function showNextPanel(){
+        //        $(this).removeClass('active');
+
+          //          $('#'+panelToShow).slideDown(300, function(){
+         //               $(this).addClass('active');
+         //           });
+         //   }
+            
+      //  });
+   // });
+</script>
+</html>    

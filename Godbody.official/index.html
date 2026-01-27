@@ -12,11 +12,10 @@
                 <ul class="tabs">
                     <li rel="panel1" class="desktop active">Women</li>
                     <li rel="panel2" class="desktop ">Men</li>   
-                    <li rel="panel3" class="desktop">Accessories</li>   
+                    <li rel="panel3" class="desktop ">Accessories</li>   
                     <a class="logo" href="index.html">Godbody Logo</a>
                 </ul>
             <div id="panel1" class="panel active">
-                
                 <div class="contents">
                     <p>Collections</p>
                 <li><a href="#">Greek Collection</a></li>
@@ -43,7 +42,7 @@
                 <li><a href="#">Wind Breakers</a></li>
                 <li><a href="#">BodySuits</a></li>
                 </div>
-            
+                <div class="lastone"></div>
             </div>
             <div id="panel2" class="panel">
                 <div class="contents">
@@ -72,6 +71,7 @@
                 <li><a href="#">Wind Breakers</a></li>
                 <li><a href="#">Bodysuits</a></li>
                 </div>
+                <div class="lastone"></div>
             </div>
             <div id="panel3" class="panel">
                 <div class="contents">
@@ -92,6 +92,7 @@
                 <li><a href="#">Skullies</a></li>
                 <li><a href="#">Beanies</a></li>
                 </div>
+                <div class="lastone"></div>
             </div>
         </nav>
     </header>
@@ -404,7 +405,7 @@
                              $(this).css('color','black');
                          $('.panel').hide();
              var panelToShow = $(this).attr('rel');
-                 $('#'+panelToShow).show().mouseleave(function(){
+                 $('#'+panelToShow).show().css('display','flex').mouseleave(function(){
                      $('#'+panelToShow).hide();
                          $('.desktop').css ('color','black')
              });

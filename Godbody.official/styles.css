@@ -48,8 +48,9 @@
             border-radius: 0 0 10px 10px;
             flex-direction: row;
          }
+         /* testing */
          .tab-panels .panel.active{
-            display: hide;
+            display: none;
          }
          .tabs {
             font-size: large;
@@ -63,14 +64,24 @@
 
          /* Panel tabs */
          .contents{
-            word-spacing:5px;
-            margin:5px;
-           
-          
+            margin-right:60px;          
          } 
          .contents p{ color: darkgray;}
          .contents li{
+            margin-bottom: 10px; ;
             list-style-type: none;
+            
+         }
+          .lastone{
+            margin-left: auto; 
+            margin-right: 100px;           
+            background-repeat: no-repeat;
+            background-image: url('Images/g2.png');
+            background-position: center;
+            background-size: 200px;
+            width: 210px;
+            height: 210px;
+            
          }
          .contents li a
          {
@@ -83,11 +94,11 @@
         display:inline-block;
         background-repeat: no-repeat;
         background-image: url('Images/gblogo2.png');
+        background-position: center;
         background-size: 180px;
         width: 150px;
         height: 30px;
         text-indent: -99999999px;
-        background-position: center;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);        

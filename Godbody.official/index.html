@@ -12,7 +12,14 @@
                 <ul class="tabs">
                     <li rel="panel1" class="desktop active">Women</li>
                     <li rel="panel2" class="desktop ">Men</li>   
-                    <li rel="panel3" class="desktop ">Accessories</li>   
+                    <li rel="panel3" class="desktop ">Accessories</li>
+                                        <nav class="mobile">
+                                            <div class="ham-menu">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </nav>
                     <a class="logo" href="index.html">Godbody Logo</a>
                 </ul>
             <div id="panel1" class="panel active">
@@ -95,10 +102,91 @@
                 <div class="lastone"></div>
             </div>
         </nav>
-    </header>
-
-    <!-- build tabs -->
- 
+                                        <div class="off-screen-menu">
+                                            <ul>
+                                                <div data-mobileId="cat1" class="mobilecategory">Womens</div>
+                                                <li id="cat1">
+                                                    <div class="contents">
+                                                    <p>Collections</p>
+                                                    <a href="#">Greek Collection</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>T-shirts & Tops </p>
+                                                    <a href="#">Compression Fit T-shirts</a>
+                                                    <a href="#">Sports Bras</a>
+                                                    <a href="#">Oversized T-shirts</a>
+                                                    <a href="#">Long Sleeve</a>
+                                                    <a href="#">T-shirts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Bottom Wear</p>
+                                                    <a href="#">Sweatpants</a>
+                                                    <a href="#">Joggers</a>
+                                                    <a href="#">Shorts</a>
+                                                    <a href="#">Leggings</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Outer Wear</p>
+                                                    <a href="#">Hoodies</a>
+                                                    <a href="#">Sweatshirts</a>
+                                                    <a href="#">Wind Breakers</a>
+                                                    <a href="#">Bodysuits</a>
+                                                    </div>
+                                                </li>
+                                                <div data-mobileId="cat2" class="mobilecategory">Mens</div>
+                                                <li id="cat2">
+                                                    <div class="contents">
+                                                        <p>Collections</p>
+                                                    <a href="#">Greek Collection</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>T-shirts & Tops</p>
+                                                    <a href="#">Compression Fit T-shirts</a>
+                                                    <a href="#">Tank Tops</a>
+                                                    <a href="#">Oversized T-shirts</a>
+                                                    <a href="#">Long Sleeve</a>
+                                                    <a href="#">Stingers</a>
+                                                    <a href="#">T-Shirts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Bottom Wear</p>
+                                                    <a href="#">Sweatpants</a>
+                                                    <a href="#">Joggers</a>
+                                                    <a href="#">shorts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Outer Wear</p>
+                                                    <a href="#">Hoodies</a>
+                                                    <a href="#">SweatShirts</a>
+                                                    <a href="#">Wind Breakers</a>
+                                                    <a href="#">BodySuits</a>
+                                                    </div>
+                                                </li>
+                                                <div data-mobileId="cat3" class="mobilecategory">Accessories</div>
+                                                <li id="cat3">
+                                                    <div class="contents">
+                                                    <p>Bags</p>
+                                                    <a href="#">Backpacks</a>
+                                                    <a href="#">Cross Body</a>
+                                                    <a href="#">Duffle bags</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Equipment</p>    
+                                                    <a href="#">Lifting Straps</a>
+                                                    <a href="#">Lifting Belts</a>
+                                                    <a href="#">Knee Sleeves</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Head Wear</p>
+                                                    <a href="#">Caps</a>
+                                                    <a href="#">Skullies</a>
+                                                    <a href="#">Beanies</a>
+                                                    <a href="#"></a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+    </header> 
     <section class="heros hero">
          Image <Div class="img-descriptions">Winter Arc Is In Full Effect <br>
                     <P class="img-subcaption">Centuries before you real men killed to survive in this season, what will you do?</P>
@@ -302,9 +390,7 @@
                                  balanced in strength, wisdom, and peace.</P>
                                 <a class="img-link" href="" >Shop Now</a>    
                         </Div>
-    </section>
-
-        
+    </section>        
 <main class="main-1">Limited Time Only Collections</main>
     <div class="collections">
         <section class="collection winter">
@@ -320,8 +406,7 @@
             image
         </section>
     </div>
-<main class="main-2">Popular Right Now</main>
-    
+<main class="main-2">Popular Right Now</main> 
     <div class="workouts">
      <section class="workout lifting">
         image
@@ -349,7 +434,6 @@
     </section>
     </div>
     <section class="highlights"> 
-        <!-- uppercase in css bold in css -->
         <h1 class="h-text">Gym Clothes And Workout Clothes</h1>
             <paragraph class="descriptions">
                     <p> Workout clothes and gym clothes is about setting yourself up for success — they're designed to keep you comfortable, dry, and supported while you train, so you can focus fully on your performance. <br> <br>
@@ -379,6 +463,7 @@
                     </p>
             </paragraph>
     </section>
+    <!-- fix moblie footer pages -->
    <footer>
     <ul>
     <li><a href="Pages/Terms&Conditions.html">Terms & Conditions</a></li>
@@ -386,22 +471,26 @@
     <li><a href="Pages/PrivacyNotice.html">Privacy Notice</a></li>
     <li><a href="Pages/CookiePolicy.html">Cookie Policy</a></li></ul>
    </footer>
-    <!-- <footer>payment<style>
-        .counter-container {
-            font-size: 48px;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
-    <h1>Counting with setInterval</h1> -->
-    <!-- This is the element that the JavaScript will update -->
-    <!-- <div id="countDisplay" class="counter-container">
-        0
-    </div></footer> -->
  </body>
 <script src="scripts/jquery-3.7.1.js"></script>
 <script>
-  //make this for the moblie hamburger tab
+
+$(function(){
+    $('.mobilecategory').on('click',function(){
+        var mobileId = $(this).attr('data-mobileId');
+        $('#'+ mobileId).slideToggle(200);
+    });
+});
+
+const hamburger = document.querySelector(".ham-menu");
+const navMenu = document.querySelector(".off-screen-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
+
+
   $(function() {
 
          $('.tab-panels .tabs li').mouseenter(function(){
@@ -457,91 +546,6 @@ $(function(){
     }
     setupSlider('#productslider1',12);
     setupSlider('#productslider2',12);
-})
-//setInterval takes a time frame and a function (fn, 1000), so every thousand milliseconds it will fire this function.
-// var nextDrop = setInterval(function(){
-//     console.log(new Date());
-// },1000); clearinterval(nextdrop)
-
-
-// Initialize the counter variable
-// let count = 1000;
-
-// // Get the HTML element where the count will be displayed
-// const displayElement = document.getElementById('countDisplay');
-
-// // Function to update the HTML display
-// function updateDisplay() {
-//     displayElement.textContent = count;
-// }
-
-// // Function to increment the counter and update the display
-// function incrementCounter() {
-//     count--;
-//     updateDisplay();
-// }
-
-// Start the interval: call 'incrementCounter' every 1000 milliseconds (1 second)
-// You can also store the interval ID if you need to stop it later using clearInterval(intervalId);
-// const intervalId = setInterval(incrementCounter, 1000);
-    //   $(function(){
-        
-
-    //     function setupSlider(sliderElement,totalSlides){
-    //             var currentSlide = 0;
-    //             // var totalSlides = 11;
-
-    //     function updateButtonColor(){
-    //         if(currentSlide === 0)
-    //                              {$(sliderElement).find('button.btnsL').css('color','grey').css('background-color','');
-    //                              $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
-    //                      else if (currentSlide === totalSlides -1)
-    //                              {$(sliderElement).find('button.btnsR').css('color','grey').css('background-color','');
-    //                              }
-    //                      else {$(sliderElement).find('button.btnsL').css('color','white').css('background-color','black');
-    //                            $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
-    //     }
-
-    //            $(sliderElement).find('button').click(function(e){
-    //                 var btnS = $(this).attr('rel')
-
-    //                 if($(this).hasClass('btnsR'))
-    //                 {if(currentSlide < totalSlides -1)
-    //                         {currentSlide++;
-    //                             $(btnS).animate({'margin-left':'-=450'},100);}}
-    //                 else if  ($(this).hasClass('btnsL')) 
-    //                 {if(currentSlide > 0)
-    //                         {currentSlide--;
-    //                              $(btnS).animate({'margin-left':'+=450'},100);}}
-    //             updateButtonColor();
-    //             });
-    //             updateButtonColor();
-    //         }    
-    //      setupSlider('#productslider1',12);
-    //      setupSlider('#productslider2',12);
-        //  setupSlider('#productslider3',11);
-        //  setupSlider('#productslider4',11);
-   // });
-    //make this for the moblie hamburger tab
-    //$(function(){
-      //  $('.tab-panels .tabs li').on('click', function() {
-        //    var $panel = $(this).closest('.tab-panels')
-          //  $panel.find('.tabs li.active').removeClass('active');
-          //  $(this).addClass('active');
-            // figure out which panel to show 
-         //   var panelToShow = $(this).attr('rel');
-           
-            // hide current panel
-         //   $panel.find('.panel.active').slideUp(300, showNextPanel);
-         //   function showNextPanel(){
-        //        $(this).removeClass('active');
-
-          //          $('#'+panelToShow).slideDown(300, function(){
-         //               $(this).addClass('active');
-         //           });
-         //   }
-            
-      //  });
-   // });
+});
 </script>
 </html>    

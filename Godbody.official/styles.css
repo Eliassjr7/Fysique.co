@@ -92,7 +92,96 @@
             color: black;
             text-decoration: none;
          }
+/* moblie ham-menu */
+ .off-screen-menu{
+        background-color: white;
+        height: 100vh;
+        width: 100%;
+        max-width: 450px;
+        position: fixed;
+        /* top: 0; */
+        left: -450px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+        font-size: 1rem;
+        transition: .3s ease;
+   
+    } 
+    .off-screen-menu li{
+      padding: 20px;
+      list-style: none;
+      display: none; 
+     
+    }
+    .mobilecategory{
+     /* background-color: rgb(236, 235, 235); */
+       padding: 5px 0 5px ;
+       border-bottom: 1px solid;
+       font-size: small;
+       font-weight: 900;
+      
+    }
+    .mobilecategory:hover{
+      cursor: pointer;
+      background-color: lightgrey;
+    }
+    .off-screen-menu a{ 
+      padding: 15px;
+      display: block;
+      text-decoration: none;
+      color: black;
+      
+    }
+    .off-screen-menu.active{
+        left: 0;
+    }
+    .mobile{
+      display: none;
+        padding: 1rem;
+        background-color: white;
+        /* cursor: pointer; */
+    }
+    .ham-menu{
+        top: -20px;
+        height: 40px;
+        width: 40px;
+        margin-right: auto;
+        position: relative;
+    }
+    .ham-menu span{
+        height: 4px;
+        width: 100%;
+        background-color: black;
+        border-radius: 25px;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        transition: .3s ease;
+    }
+    .ham-menu span:nth-child(1){
+        top: 25%;
+    }
+    .ham-menu span:nth-child(3){
 
+        top:75%;
+    }
+    .ham-menu.active span:nth-child(1){
+        top: 50%;
+        transform: translate(-50%, -50%) rotate(45deg);
+    }
+    .ham-menu.active span:nth-child(2){
+        opacity: 0;
+    }
+    .ham-menu.active span:nth-child(3){
+        top:50%;
+        transform: translate(-50%, -50%) rotate(-45deg);
+    }
          /* end */
           ul .logo{
         display:inline-block;
@@ -313,6 +402,7 @@ main{
          {height: 200px;}
      .collection, .workout, .category
          {height: 100px;}
+      .mobile{display: flex;}
    
 } 
 @media screen and (max-width: 400px) {
@@ -326,6 +416,9 @@ main{
          {height: 140px;}
      .collection, .workout, .category
          {height: 55px;}
+         .mobile{display: flex;}
+
+         
    
 } 
 
@@ -341,6 +434,6 @@ main{
          {height: 140px;}
      .collection, .workout, .category
          {height: 55px;}
-   
+   .mobile{display: flex;}
 }  
 

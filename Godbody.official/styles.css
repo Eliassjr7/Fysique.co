@@ -261,12 +261,13 @@
          }
          /* this causes all product to align right */
          #productslides1, #productslides2{
-          background-color: white;
-            display: flex;
+          background-color:white;
+          display: flex;      
          }
          .productslider { 
             /* position: relative; */
             /* height: 500px;  */
+            
             overflow: hidden;
             background-color: white;
             color: black;
@@ -302,9 +303,9 @@ main{
             margin: 1%;
          }
          .collection, .workout, .category{
-            flex-wrap: nowrap;
+            flex-wrap: nowrap; 
             height: 410px;
-            width: 5000px;
+            width: 800px;
             background-color: black;
             color: white;
             margin: 2px;
@@ -379,7 +380,7 @@ main{
 /* you can add two arguments to the media screen this is homwwork and fix responsiveness */
 
  @media screen and (max-width: 1350px) {
-      .collection, .workout, .main-1, .main-2
+      .tab-panels ul li, .collection, .workout, .main-1, .main-2
          { display: none;}
      /* header .logo
          { margin: 20px 10px;} */
@@ -387,11 +388,18 @@ main{
          {height: 500px;}
      .collection, .workout, .category
          {height: 250px;}
+         .mobile{display: flex;}
+      .ham-menu{
+        top: -15px;
+        left: -15px;
+        height: 25px;
+        width: 25px;
+        }
 
 } 
 @media screen and (max-width: 750px) {
 
-      .tab-panels ul li, .img-subcaption, .main-1,
+       .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
      /* header .logo
@@ -400,22 +408,21 @@ main{
          { font-size: small;}
      .heros
          {height: 200px;}
+         .btn{display: none;}
+         #productslides1, #productslides2{
+            overflow-x: auto;
+         }
      .collection, .workout, .category
          {height: 100px;}
-      .mobile{display: flex;}
-      .ham-menu{
-        top: -15px;
-        left: -15px;
-        height: 25px;
-        width: 25px;
-        }
-        .highlights{padding: 50px;        }
+        .highlights{padding: 30px;}
         footer{display: none;}
-   
+   .heros
+         {  background-size:190%;
+            height: 530px;}
 } 
 @media screen and (max-width: 400px) {
 
-      .highlights, .img-subcaption, .main-1,
+      .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
      .img-descriptions, .img-link
@@ -425,24 +432,32 @@ main{
      .collection, .workout, .category
          {height: 55px;}
          .mobile{display: flex;}
-
-         
-   
+      .highlights{ padding:50px 10px 5px 10px;}
+      .h-text{font-size: medium;}
+      .heros
+         {  background-size:310%;
+            height: 530px;}
+   /* working */
 } 
 
 
 @media screen and (max-width: 250px) {
 
-      .highlights, .img-subcaption, .main-1,
+      .img-subcaption, .main-1,
      .main-2, .collection, .workout
          { display: none;}
      .img-descriptions, .img-link
          { font-size: small;}
      .heros
-         {height: 140px;}
+         {  background-size:310%;
+            height: 530px;}
      .collection, .workout, .category
-         {height: 140px;}
+          { 
+          background-size: 200%; 
+            height: 140px;
+            }
    .mobile{display: flex;}
+   
     
 }  
 

@@ -12,7 +12,14 @@
                 <ul class="tabs">
                     <li rel="panel1" class="desktop active">Women</li>
                     <li rel="panel2" class="desktop ">Men</li>   
-                    <li rel="panel3" class="desktop ">Accessories</li>   
+                    <li rel="panel3" class="desktop ">Accessories</li>
+                                        <nav class="mobile">
+                                            <div class="ham-menu">
+                                                <span></span>
+                                                <span></span>
+                                                <span></span>
+                                            </div>
+                                        </nav>   
                     <a class="logo" href="../index.html">Godbody Logo</a>
                 </ul>
             <div id="panel1" class="panel active">
@@ -95,6 +102,100 @@
                 <div class="lastone"></div>
             </div>
         </nav>
+        <div class="off-screen-menu">
+                                            <ul>
+                                                <div data-mobileId="cat1" class="mobilecategory">Womens</div>
+                                                <li id="cat1">
+                                                    <div class="contents">
+                                                    <p>Collections</p>
+                                                    <a href="#">Greek Collection</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>T-shirts & Tops </p>
+                                                    <a href="#">Compression Fit T-shirts</a>
+                                                    <a href="#">Sports Bras</a>
+                                                    <a href="#">Oversized T-shirts</a>
+                                                    <a href="#">Long Sleeve</a>
+                                                    <a href="#">T-shirts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Bottom Wear</p>
+                                                    <a href="#">Sweatpants</a>
+                                                    <a href="#">Joggers</a>
+                                                    <a href="#">Shorts</a>
+                                                    <a href="#">Leggings</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Outer Wear</p>
+                                                    <a href="#">Hoodies</a>
+                                                    <a href="#">Sweatshirts</a>
+                                                    <a href="#">Wind Breakers</a>
+                                                    <a href="#">Bodysuits</a>
+                                                    </div>
+                                                </li>
+                                                <div data-mobileId="cat2" class="mobilecategory">Mens</div>
+                                                <li id="cat2">
+                                                    <div class="contents">
+                                                        <p>Collections</p>
+                                                    <a href="#">Greek Collection</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>T-shirts & Tops</p>
+                                                    <a href="#">Compression Fit T-shirts</a>
+                                                    <a href="#">Tank Tops</a>
+                                                    <a href="#">Oversized T-shirts</a>
+                                                    <a href="#">Long Sleeve</a>
+                                                    <a href="#">Stingers</a>
+                                                    <a href="#">T-Shirts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Bottom Wear</p>
+                                                    <a href="#">Sweatpants</a>
+                                                    <a href="#">Joggers</a>
+                                                    <a href="#">shorts</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Outer Wear</p>
+                                                    <a href="#">Hoodies</a>
+                                                    <a href="#">SweatShirts</a>
+                                                    <a href="#">Wind Breakers</a>
+                                                    <a href="#">BodySuits</a>
+                                                    </div>
+                                                </li>
+                                                <div data-mobileId="cat3" class="mobilecategory">Accessories</div>
+                                                <li id="cat3">
+                                                    <div class="contents">
+                                                    <p>Bags</p>
+                                                    <a href="#">Backpacks</a>
+                                                    <a href="#">Cross Body</a>
+                                                    <a href="#">Duffle bags</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Equipment</p>    
+                                                    <a href="#">Lifting Straps</a>
+                                                    <a href="#">Lifting Belts</a>
+                                                    <a href="#">Knee Sleeves</a>
+                                                    </div>
+                                                    <div class="contents">
+                                                    <p>Head Wear</p>
+                                                    <a href="#">Caps</a>
+                                                    <a href="#">Skullies</a>
+                                                    <a href="#">Beanies</a>
+                                                    <a href="#"></a>
+                                                    </div>
+                                                </li>
+                                                <div data-mobileId="cat4" class="mobilecategory">User Agreement</div>
+                                                 <li id="cat4">
+                                                    <div class="contents">
+                                                    <a href="Terms&Conditions.html">Terms & Conditions</a>
+                                                    <a href="TermsOfUse.html">Terms of Use</a>
+                                                    <a href="PrivacyNotice.html">Privacy Notice</a>
+                                                    <a href="CookiePolicy.html">Cookie Policy</a>
+                                                    <a href="#"></a>
+                                                    </div>
+                                                 </li>
+                                            </ul>
+                                        </div>
     </header>
     <section class="highlights"> 
         <h1 class="h-text">Gym Clothes And Workout Clothes</h1>
@@ -136,6 +237,20 @@
 </body>
 <script src="../scripts/jquery-3.7.1.js"></script>
 <script>
+    $(function(){
+    $('.mobilecategory').on('click',function(){
+        var mobileId = $(this).attr('data-mobileId');
+        $('#'+ mobileId).slideToggle(200);
+    });
+});
+
+const hamburger = document.querySelector(".ham-menu");
+const navMenu = document.querySelector(".off-screen-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+});
   //make this for the moblie hamburger tab
   $(function() {
 

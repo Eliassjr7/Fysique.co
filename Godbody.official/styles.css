@@ -105,6 +105,7 @@
         flex-direction: column;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
         /* justify-content: center;
         align-items: center;
         text-align: center; */
@@ -231,13 +232,13 @@
 
          }
          .hero{
-            background-image: url("Images/IMG_0291.jpg");
+            background-image: url("Images/IMG_0290.jpg");
          }
          .hero1{ 
-            background-image: url("Images/IMG_0289.jpg");
+            background-image: url("Images/IMG_0291.jpg");
          }
          .hero2{ 
-            background-image: url("Images/IMG_0290.jpg");
+            background-image: url("Images/IMG_0289.jpg");
          }
          .img-descriptions{
             margin-top: auto;
@@ -326,6 +327,30 @@ main{
          .men{background-image: url("Images/IMG_0286.jpg");}
          .women{background-image: url("Images/IMG_0286.jpg");}
          .accessories{background-image: url("Images/IMG_0286.jpg");}
+/* mobile categories fix the display with caption and the different pictures*/
+    .moblie-collection{ 
+        overflow: hidden;overflow-x: auto;
+        margin: 20px 0 20px 0;
+        padding: 0px;
+        scrollbar-width: none;
+    }
+    .moblie-collection ul{
+        margin: 0px;
+        padding: 0 2px 0 2px;
+        display:none;
+        
+    }
+    .moblie-collection ul .moblie-image{
+        background-color: black;
+        height:400px;
+        width:250px;
+        margin:3px; 
+        background-image: url(Images/IMG_0291.jpg);
+        background-size: 270%;
+        background-repeat: no-repeat;
+        text-indent: -99999999px;
+    }  
+
 /* Text at the bottom of the page */
          
          .highlights{
@@ -380,83 +405,69 @@ main{
 /* you can add two arguments to the media screen this is homwwork and fix responsiveness */
 
  @media screen and (max-width: 1350px) {
-      .tab-panels ul li, .collection, .workout, .main-1, .main-2
+      .tab-panels ul li
          { display: none;}
-     /* header .logo
-         { margin: 20px 10px;} */
      .heros
          {height: 500px;}
-     .collection, .workout, .category
-         {height: 250px;}
-         .mobile{display: flex;}
       .ham-menu{
         top: -15px;
         left: -15px;
         height: 25px;
         width: 25px;
         }
+        .collection, .workout, .category{
+         background-size: 250%;
+        }
+        .mobile{display: flex;}
 
 } 
 @media screen and (max-width: 750px) {
-
-       .img-subcaption, .main-1,
-     .main-2, .collection, .workout
-         { display: none;}
-     /* header .logo
-         { margin: 20px 10px;} */
+     .collection, .workout, .category{display: none;}
+   .moblie-collection ul{display: inline-flex;}
      .img-descriptions, .img-link
          { font-size: small;}
-     .heros
-         {height: 200px;}
          .btn{display: none;}
          #productslides1, #productslides2{
             overflow-x: auto;
+            scrollbar-width: none;
          }
-     .collection, .workout, .category
-         {height: 100px;}
         .highlights{padding: 30px;}
-        footer{display: none;}
-   .heros
+       
+        .heros
          {  background-size:190%;
             height: 530px;}
+            main{
+   margin: 25px 0 5px 5px; 
+   text-transform: uppercase;
+   font-weight:bolder ;
+   font-size: 1.5rem;
+   
+}
+ footer{display: none;}
 } 
 @media screen and (max-width: 400px) {
 
-      .img-subcaption, .main-1,
-     .main-2, .collection, .workout
-         { display: none;}
+      
      .img-descriptions, .img-link
          { font-size: small;}
-     .heros
-         {height: 140px;}
-     .collection, .workout, .category
-         {height: 55px;}
-         .mobile{display: flex;}
+      .mobile{display: flex;}
       .highlights{ padding:50px 10px 5px 10px;}
       .h-text{font-size: medium;}
       .heros
          {  background-size:310%;
             height: 530px;}
+            .productslider{
+               padding: 0;
+            }
    /* working */
 } 
 
 
 @media screen and (max-width: 250px) {
 
-      .img-subcaption, .main-1,
-     .main-2, .collection, .workout
-         { display: none;}
-     .img-descriptions, .img-link
-         { font-size: small;}
-     .heros
-         {  background-size:310%;
-            height: 530px;}
-     .collection, .workout, .category
-          { 
-          background-size: 200%; 
-            height: 140px;
-            }
-   .mobile{display: flex;}
+     
+     
+     
    
     
 }  

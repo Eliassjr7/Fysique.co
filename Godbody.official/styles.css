@@ -121,7 +121,8 @@
     }
     .mobilecategory{
      /* background-color: rgb(236, 235, 235); */
-       padding: 5px 0 5px ;
+   
+       padding: 10px 0 10px ;
        border-bottom: 1px solid;
        font-size: small;
        font-weight: 900;
@@ -420,7 +421,7 @@ main{
          background-size: 250%;
         }
         .mobile{display: flex;}
-
+        footer{display: none;}
 } 
 @media screen and (max-width: 750px) {
      .collection, .workout, .category{display: none;}
@@ -446,7 +447,7 @@ main{
    font-size: 1.5rem;
    
 }
- footer{display: none;}
+ 
 } 
 @media screen and (max-width: 400px) {
 

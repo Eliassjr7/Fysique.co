@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Men's Gym Clothes & Workout Clothes - Godbody</title>
+    <link rel="stylesheet" href="../styles.css">
+    <!-- <script src="test.js" defer></script>  -->
+</head>
+<body>
+    
+    <div class="search-wrapper">
+        <label for="search">Search Users</label>
+        <input type="text" id="search" data-search>
+    </div>
+        <div class="user-cards" data-user-cards-container></div>
+        <template data-user-template>
+            <div class="card">
+                <div class="card-header card-image">
+                         <img data-image src="" alt=""> 
+                    </div>
+                <div class="header"data-header></div>
+                <div class="body" data-body></div>  
+                <div class="price" data-cost></div>
+            </div>
+        </template>
+    
+
+</body>
+<script>
+const userCardTemplate = document.querySelector("[data-user-template]")
+const userCardContainer = document.querySelector("[data-user-cards-container]")
+const searchInput = document.querySelector("[data-search]")
+
+let users = []
+
+searchInput.addEventListener("input", e => {
+    const value = e.target.value.toLowerCase()
+    users.forEach(user => {
+        const isVisible =
+        user.name.toLowerCase().includes(value) ||
+        user.email.toLowerCase().includes(value)
+        user.element.classList.toggle("hide",!isVisible)
+    })
+})
+
+
+fetch("../deleting.json")
+    .then(res => res.json())
+    .then(data =>{
+       users = data.map(user => {
+            const card = userCardTemplate.content.cloneNode(true).children[0]
+            const Image = card.querySelector("[data-image]")
+            const header = card.querySelector("[data-header]")
+            const body = card.querySelector("[data-body]")
+            const Price = card.querySelector("[data-cost]")
+            Image.src = user.url
+            header.textContent = user.name
+            body.textContent = user.email
+            Price.textContent = user.price
+            userCardContainer.append(card)
+            return{ name: user.name, email: user.email, element: card}
+        })
+    })
+</script>
+</html>

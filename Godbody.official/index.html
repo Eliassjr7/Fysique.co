@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Godbody Official Store - Gym Clothes & Workout Clothes</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="scripts/main.js" defer></script>
 </head>
-<style>
-             
-</style>
     <body>
     <header>
         <nav class="tab-panels">
@@ -24,6 +22,9 @@
                                             </div>
                                         </nav>
                     <a class="logo" href="index.html">Godbody Logo</a>
+                    <div class="search-icon"> <p>What are you looking for?</p>
+                        <div class="icon"></div> 
+                    </div>
                 </ul>
             <div id="panel1" class="panel active">
                 <div class="contents">
@@ -105,6 +106,23 @@
                 <div class="lastone"></div>
             </div>
         </nav>
+                <div class="off-screen-search">
+                    <div class="search-wrapper">
+                        <label for="search">Search Products</label>
+                        <input type="text" id="search" data-search>
+                    </div>
+                        <div class="user-cards" data-user-cards-container></div>
+                        <template data-user-template>
+                            <div class="card">
+                                <div class="card-header card-image">
+                                        <img data-image src="" alt=""> 
+                                    </div>
+                                <div class="header"data-header></div>
+                                <div class="body" data-body></div>  
+                                <div class="price" data-cost></div>
+                    </div>
+        </template>
+                    </div>
                                         <div class="off-screen-menu">
                                             <ul>
                                                 <div data-mobileId="cat1" class="mobilecategory">Womens</div>
@@ -199,6 +217,7 @@
                                                  </li>
                                             </ul>
                                         </div>
+                        
     </header> 
     <section class="heros hero">
          Image <Div class="img-descriptions">Winter Arc Is In Full Effect <br>
@@ -466,7 +485,8 @@
                         <ul>
                         <div class="moblie-image">moblie-collection image</div>
                         <div class="moblie-image">moblie-collection image</div>
-                        <div class="moblie-image">moblie-collection image</div>                        </ul>
+                        <div class="moblie-image">moblie-collection image</div>                        
+                        </ul>
                     </section>
     
     <section class="highlights"> 
@@ -508,79 +528,4 @@
    </footer>
  </body>
 <script src="scripts/jquery-3.7.1.js"></script>
-<script>
-
-$(function(){
-    $('.mobilecategory').on('click',function(){
-        var mobileId = $(this).attr('data-mobileId');
-        $('#'+ mobileId).slideToggle(200);
-    });
-});
-
-const hamburger = document.querySelector(".ham-menu");
-const navMenu = document.querySelector(".off-screen-menu");
-
-hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navMenu.classList.toggle("active");
-});
-
-
-  $(function() {
-
-         $('.tab-panels .tabs li').mouseenter(function(){
-             var $panel = $(this).closest('.tab-panels');
-                 $panel.find('.tab li.active').removeClass('active');
-                     $(this).addClass('active').siblings('li').css('color','lightgrey');
-                             $(this).css('color','black');
-                         $('.panel').hide();
-             var panelToShow = $(this).attr('rel');
-                 $('#'+panelToShow).show().css('display','flex').mouseleave(function(){
-                     $('#'+panelToShow).hide();
-                         $('.desktop').css('color','black')
-             });
-         });
-    });
-
-
-'use strict';
-
-$(function(){
-
-    function setupSlider(sliderElement,totalSlides){
-    var currentSlide = 0;
-
-                  function updateButtonColor(){
-                        if(currentSlide === 0)
-                                            {$(sliderElement).find('button.btnsL').css('color','grey').css('background-color','');
-                                            $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
-                                    else if (currentSlide === totalSlides -1)
-                                            {$(sliderElement).find('button.btnsR').css('color','grey').css('background-color','');}
-                                    else {$(sliderElement).find('button.btnsL').css('color','white').css('background-color','black');
-                                        $(sliderElement).find('button.btnsR').css('color','white').css('background-color','black');}
-                    }
-                //configuration
-                var width = 210;
-                var animattionSpeed = 100;
-                // CACHE DOM
-    
-                        $(sliderElement).find('button').click(function(e){
-                            var btnS = $(this).attr('rel');
-                            
-                            if($(this).hasClass('btnsR'))
-                                {if(currentSlide < totalSlides -1)
-                                    {currentSlide++;
-                                        $(btnS).animate({'margin-left':'-='+width},animattionSpeed);}} 
-                            else if ($(this).hasClass('btnsL'))
-                                {if(currentSlide > 0)
-                                    {currentSlide--; 
-                                        $(btnS).animate({'margin-left': '+='+width},animattionSpeed);}}
-                        updateButtonColor();
-                        });
-                        updateButtonColor();
-    }
-    setupSlider('#productslider1',12);
-    setupSlider('#productslider2',12);
-});
-</script>
 </html>    

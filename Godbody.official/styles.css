@@ -48,6 +48,8 @@
             border-bottom: 1px solid;
             border-color:lightgray;
             border-radius:0 0 5px 5px;
+            position: absolute;
+            width: 100%;
          }
          /* testing */
          .tab-panels .panel.active{
@@ -134,9 +136,7 @@
             transform: rotate(-45deg);
             cursor: pointer;
             transition: .5s;
-        }
-        .icon:hover{
-            border-color: darkgrey;
+         
         }
         .icon::after{
             content: '';
@@ -149,12 +149,9 @@
             background: black;
             transition: .5s;
         }
-        .icon:hover::after{
-            background-color: darkgrey;
-        }
         .icon.active{
-         background-color: darkgrey;
-        }
+        color: black;
+        } 
         
 /* search page */
 .off-screen-search{
@@ -309,9 +306,6 @@
         left:50%;
         transform: translate(-50%, -50%);
         transition: .5s ease;
-    }
-    .ham-menu span:hover{
-      background-color: darkgrey;
     }
     .ham-menu span:nth-child(1){
         top: 25%;
@@ -573,7 +567,7 @@ main{
           }
           .search-icon.active{
             border: white;          
-        }
+        }  
         
      .heros
          {height: 500px;}

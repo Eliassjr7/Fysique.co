@@ -3,6 +3,20 @@
             margin: 0;
             padding: 0;   
         }
+        /* editing pages */
+         .site{
+         min-height: 100dvh;
+         display: grid;
+         grid-template-columns: auto 1fr auto;
+         grid-template-columns: minmax(0,1fr);
+        } 
+          .TitlePage{
+            padding: 10px;
+          }
+          .product-cards{
+            padding: 10px;
+          }
+          /* editing pages */
          header {
             display: block;
             position: fixed;  
@@ -76,13 +90,13 @@
             
          }
           .lastone{
-            border: 0px solid white;
-            box-shadow: 0 0 10px;
+            /* border: 0px solid white;
+            box-shadow: 0 0 10px; */
             border-radius: 50%;
             margin-left: auto; 
             margin-right: 100px;           
             background-repeat: no-repeat;
-            background-image: url('Images/g2.png');
+            background-image: url('');
             background-position: center;
             background-size: 200px;
             width: 200px;
@@ -129,8 +143,8 @@
         }
         .icon{
             position: relative;
-            width: 15px;
-            height: 15px;
+            width: 10px;
+            height: 10px;
             border: 3px solid black;
             border-radius: 50%;
             transform: rotate(-45deg);
@@ -155,7 +169,7 @@
         
 /* search page */
 .off-screen-search{
-
+   
    height: 100vh;
    width: 100%;
    background-color: white;
@@ -167,10 +181,12 @@
    scrollbar-width: thin;
 }
 .off-screen-search.active{
+
    right:0px;
 }
 
 .search-wrapper{
+         margin: 10px;
          display: flex;
          flex-direction: column;
          gap: .25rem;
@@ -263,16 +279,24 @@
     .mobilecategory{
      /* background-color: rgb(236, 235, 235); */
    
-       padding: 10px 0 10px ;
-       border-bottom: 1px solid;
+       padding: 15px 0 15px ;
+       border-bottom: 1px solid lightgrey;
        font-size: small;
        font-weight: 900;
-      
-    }
-    .mobilecategory:hover{
       cursor: pointer;
-      background-color: lightgrey;
     }
+
+    .arrow{
+      content: "\00BB" ;
+      margin-left: 25px ;
+      display: inline-block;
+      transition: transform 0.3s ease;
+    
+    }
+    .arrow.rotate{
+      transform: rotate(90deg);
+    }  
+    
     .off-screen-menu a{ 
       padding: 15px;
       display: block;
@@ -329,9 +353,9 @@
           ul .logo{
         display:inline-block;
         background-repeat: no-repeat;
-        background-image: url('Images/gblogo2.png');
+        background-image: url('Images/FysiqueLogo.png');
         background-position: center;
-        background-size: 160px;
+        background-size: 110px;
         width: 150px;
         height: 30px;
         text-indent: -99999999px;
@@ -340,6 +364,57 @@
         transform: translateX(-50%);        
     }    
 
+/* Product display for the different pages  */
+.TitlePage{
+   margin: 0;
+}
+.product-cards{
+      padding-left:4px;
+      padding-right: 4px;
+      padding-bottom: 60px; 
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        gap: .5rem;
+        margin-top: 1rem;
+ }
+ .productCard {
+      padding: 0px;
+        background-color: white;
+        border-radius: .25rem;
+        margin-bottom: 10px;
+ }
+ .productCard > .header {
+    margin-top: .25rem;
+        margin-bottom: .35rem;
+ }
+ .productCard > .body{
+      margin-bottom: 1em;
+        font-size: .8rem;
+        color:black;
+ }
+ .card-header{
+       /* box-shadow:gray 0 0 10px; */
+        padding: 0px;
+        padding-bottom: 0;
+    }
+    .card-header.card-image{
+        border-radius: .25rem;
+        border: 1px solid white;
+        padding: 0;
+        overflow: hidden;
+    }
+    .card-header.card-image > img{
+        display: block;
+        width: 100%;
+        max-height: 300px;
+        aspect-ratio: 9/16 ;
+        object-fit: cover;
+        object-position: center;
+        transition: 200ms transform ease-in-out;
+    }
+     .productCard:hover > .card-header.card-image > img{
+        transform: scale(1.025);
+    }
 /* body */
     button{ 
       padding: 10px 15px; 
@@ -510,13 +585,12 @@ main{
          }      
        
          footer{
-           
-            
+            margin-top: auto;
             border-top: 1px solid;
             border-color:lightgray;
             border-radius: 5px 5px;
             /* height: 50px; */
-            
+
          }
          footer ul{
             display: flex;
@@ -524,6 +598,7 @@ main{
             margin:0;
             padding:17px;
             justify-content: flex-end;
+            
             
          }
          footer ul li{ 
@@ -568,7 +643,10 @@ main{
           .search-icon.active{
             border: white;          
         }  
-        
+        .icon{
+         height: 15px;
+         width: 15px;
+        }
      .heros
          {height: 500px;}
       .ham-menu{

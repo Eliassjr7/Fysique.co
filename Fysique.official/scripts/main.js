@@ -3,14 +3,18 @@ const SearchScreen = document.querySelector(".off-screen-search")
     Search.addEventListener("click", () =>{
         Search.classList.toggle("active")
         SearchScreen.classList.toggle("active");
-    })
+    });
+
+
 
 $(function(){
     $('.mobilecategory').on('click',function(){
         var mobileId = $(this).attr('data-mobileId');
         $('#'+ mobileId).slideToggle(200);
+         $(this).find('.arrow').toggleClass('rotate');
     });
 });
+
 
 const hamburger = document.querySelector(".ham-menu");
 const navMenu = document.querySelector(".off-screen-menu");
@@ -32,7 +36,7 @@ hamburger.addEventListener("click", () => {
              var panelToShow = $(this).attr('rel');
                  $('#'+panelToShow).show().css('display','flex').mouseleave(function(){
                      $('#'+panelToShow).hide();
-                         $('.desktop').css('color','black')
+                         $('.desktop').css('color','black');
              });
          });
     });
@@ -95,7 +99,7 @@ searchInput.addEventListener("input", e => {
 })
 
 
-fetch("test.json")
+fetch("shipment.json")
     .then(res => res.json())
     .then(data =>{
        users = data.map(user => {

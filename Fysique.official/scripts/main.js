@@ -108,6 +108,9 @@ fetch("shipment.json")
             const header = card.querySelector("[data-header]")
             const body = card.querySelector("[data-body]")
             const Price = card.querySelector("[data-cost]")
+            card.addEventListener("click", () =>{
+                window.location.href = user.redirectUrl;
+            }); 
             Image.src = user.url
             header.textContent = user.name
             body.textContent = user.email

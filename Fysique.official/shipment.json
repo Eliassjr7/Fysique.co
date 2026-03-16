@@ -4,91 +4,104 @@
     "name": "Leanne Graham",
     "url": "images/IMG_0290.JPG",
     "price": "$35",
-    "email": "Sincere@april.biz"
+    "email": "Sincere@april.biz",
+    "redirectUrl":"Caps.html"
   },
   {
     "id": 2,
     "name": "Ervin Howell",
     "price": "$35",
     "url": "images/IMG_0290.JPG",
-    "email": "Shanna@melissa.tv"
+    "email": "Shanna@melissa.tv",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 3,
     "name": "Clementine Bauch",
     "url": "images/IMG_0290.JPG",
     "price": "$55",
-    "email": "Nathan@yesenia.net"
+    "email": "Nathan@yesenia.net",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 4,
     "name": "Patricia Lebsack",
     "url": "images/IMG_0290.JPG",
     "price": "$95",
-    "email": "Julianne.OConner@kory.org"
+    "email": "Julianne.OConner@kory.org",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 5,
     "name": "Chelsey Dietrich",
     "url": "images/IMG_0290.JPG",
     "price": "$55",
-    "email": "Lucio_Hettinger@annie.ca"
+    "email": "Lucio_Hettinger@annie.ca",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 6,
     "name": "Mrs. Dennis Schulist",
     "url": "images/IMG_0290.JPG",
     "price": "$155",
-    "email": "Karley_Dach@jasper.info"
+    "email": "Karley_Dach@jasper.info",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 7,
     "name": "Kurtis Weissnat",
     "url": "images/IMG_0290.JPG",
     "price": "$65",
-    "email": "Telly.Hoeger@billy.biz"
+    "email": "Telly.Hoeger@billy.biz",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 8,
     "name": "Nicholas Runolfsdottir V",
     "url": "images/IMG_0290.JPG",
     "price": "$35",
-    "email": "Sherwood@rosamond.me"
+    "email": "Sherwood@rosamond.me",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 9,
     "name": "Glenna Reichert",
     "url": "images/IMG_0290.JPG",
     "price":"$55",
-    "email": "Chaim_McDermott@dana.io"
+    "email": "Chaim_McDermott@dana.io",
+     "redirectUrl":"Caps.html"
   },
   {
     "id": 10,
     "name": "Clementina DuBuque",
     "url": "images/IMG_0290.JPG",
     "price": "$35",
-    "email": "Rey.Padberg@karina.biz"
+    "email": "Rey.Padberg@karina.biz",
+     "redirectUrl":"Caps.html"
   },
    {
     "id": 10,
     "name": "Clementina DuBuque",
     "url": "images/IMG_0290.JPG",
     "price":"$25",
-    "email": "Rey.Padberg@karina.biz"
+    "email": "Rey.Padberg@karina.biz",
+     "redirectUrl":"Caps.html"
   },
    {
     "id": 10,
     "name": "Clementina DuBuque",
     "url": "images/IMG_0290.JPG",
     "price":"$65",
-    "email": "Rey.Padberg@karina.biz"
+    "email": "Rey.Padberg@karina.biz",
+     "redirectUrl":"Caps.html"
   },
    {
     "id": 10,
     "name": "Clementina DuBuque",
     "url": "images/IMG_0290.JPG",
     "price":"$35",
-    "email": "Rey.Padberg@karina.biz"
+    "email": "Rey.Padberg@karina.biz",
+     "redirectUrl":"Caps.html"
   }
 
 ]

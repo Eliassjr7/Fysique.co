@@ -227,7 +227,7 @@
         display: none;
     }
     .card-header{
-       box-shadow:gray 0 0 10px;
+       /* box-shadow:gray 0 0 10px; */
         padding: var(--padding);
         padding-bottom: 0;
     }
@@ -419,12 +419,13 @@
     button{ 
       padding: 10px 15px; 
       cursor: pointer; 
-      margin: 10px 15px;  
+      margin: 5px;  
       border-radius: 50%; 
       border: none; 
    }
    .btn{
        position: absolute;
+       margin: 10px;
        /* top: 25px; 
        left:10px;    */
    } 
@@ -489,7 +490,8 @@
             overflow: hidden;
             background-color: white;
             color: black;
-            padding: 20px;         
+            padding: 0px;     
+            margin: 0px;    
             text-transform: uppercase; 
                }
          .productslider figure{
@@ -583,7 +585,15 @@ main{
          .descriptions{
              font-size: small; 
          }      
-       
+       /*labels  */
+       .productLabels{
+         /* color: darkgrey; */
+         text-transform: uppercase;
+         font-weight: 900;
+         padding: 0;
+         margin: 20px 0 0 20px;
+       }
+       /* labels  */
          footer{
             margin-top: auto;
             border-top: 1px solid;

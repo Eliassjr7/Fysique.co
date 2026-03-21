@@ -240,7 +240,7 @@
     .card-header.card-image > img{
         display: block;
         width: 100%;
-        max-height: 300px;
+        max-height: 400px;
         aspect-ratio: 9/16 ;
         object-fit: cover;
         object-position: center;
@@ -406,7 +406,7 @@
     .card-header.card-image > img{
         display: block;
         width: 100%;
-        max-height: 300px;
+        max-height: 400px;
         aspect-ratio: 9/16 ;
         object-fit: cover;
         object-position: center;
@@ -437,7 +437,33 @@
             display:flex;
             flex-direction: row; 
          }  
-         
+         .Lbottons{
+            text-transform: uppercase;
+            align-items: center;      
+            justify-content: center;
+            margin-top: auto;
+            display: flex;
+            flex-direction:row;
+            font-weight: 900;
+            text-indent:0px;
+            color: white;
+         }
+         .Hbuttons{
+            margin-right: auto;
+            margin-left: auto;
+            margin-top: auto;
+            text-decoration: none;
+            text-indent: 0px;
+            display: flex;
+            flex-direction: column;
+         }
+            .Hbuttons button{
+               border: 1px solid white;
+               background: transparent;
+               border-radius: 30px;
+               color: white;
+               font-weight: bolder;
+            }
          .heros{
             background-color: black;
             height: 690px;
@@ -488,7 +514,7 @@
             /* height: 500px;  */
             
             overflow: hidden;
-            background-color: white;
+            background-color:white;
             color: black;
             padding: 0px;     
             margin: 0px;    
@@ -507,7 +533,39 @@
             width: 200px;
          }    
 
+/* Container for timer */
+.countdown-container {
+    text-align: center; 
+    justify-content: center;
+    padding: 30px;
+   margin: 90px;
+   margin-left: auto;
+   margin-right: auto;
+}
 
+.Mtimer, .Wtimer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Mtimer div, .Wtimer div {
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.Mtimer p, .Wtimer p {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.Mtimer span, .Wtimer span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
 /* Main Titles Between Sections */
 main{
    margin: 5% 1% ; 
@@ -672,12 +730,11 @@ main{
         footer{display: none;}
 } 
 @media screen and (max-width: 750px) {
-     .collection, .workout, .category{display: none;}
+     .collection, .workout, .category, .btn, .countdown-container{display: none;}
    .moblie-collection ul{display: inline-flex;
                margin: 15px;}
      .img-descriptions, .img-link
          { font-size: small;}
-         .btn{display: none;}
          #productslides1, #productslides2{
             overflow-x: auto;
             scrollbar-width: none;
@@ -685,10 +742,12 @@ main{
         .highlights{
          margin-top: 1px;
          padding: 30px;}
-       
         .heros
          {  background-size:190%;
             height: 530px;
+         }
+         .Hbuttons{
+            margin-top: 300px;
          }
             main{
    margin: 25px 0px 5px 10px; 
@@ -717,14 +776,5 @@ main{
             }
    /* working */
 } 
-
-
-@media screen and (max-width: 250px) {
-
-     
-     
-     
-   
-    
-}  
+ 
 

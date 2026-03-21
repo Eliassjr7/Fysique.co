@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Mens Bottom Wear Fysique Official Store - Gym Clothes & Workout Clothes</title>
+    <title> Womens T-shirts & Tops Fysique Official Store - Gym Clothes & Workout Clothes</title>
     <link rel="Shortcut Icon" href="Images/f3.png">
     <link rel="stylesheet" href="styles.css">
     <script src="scripts/main.js" defer></script>
 </head>
+<style>
+    body {
+    font-family: sans-serif;
+    display: flex;
+    
+    /* height: 100vh; */
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.countdown-container {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.timer div {
+    background: #333;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.timer p {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.timer span {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+</style>
 <body>
 <div class="site">
     <header>
@@ -232,7 +275,27 @@
         <div class="body"> Details</div>
         <div class="prices">$130</div>
     </div>
-   </div>
+   </div>    <div class="countdown-container">
+        <h1>Countdown to Event!</h1>
+        <div class="timer">
+            <div>
+                <p id="days">00</p>
+                <span>Days</span>
+            </div>
+            <div>
+                <p id="hours">00</p>
+                <span>Hours</span>
+            </div>
+            <div>
+                <p id="minutes">00</p>
+                <span>Minutes</span>
+            </div>
+            <div>
+                <p id="seconds">00</p>
+                <span>Seconds</span>
+            </div>
+        </div>
+    </div>
    <h1 class="h-text TitlePage">Gym Clothes And Workout Clothes</h1>
     <footer>
     <ul>
@@ -244,3 +307,31 @@
 </div>
 </body>
 <script src="scripts/jquery-3.7.1.js"></script>
+<script>
+// Set target date
+const target = new Date("Jan 1, 2027 00:00:00").getTime();
+
+// Update every second
+const interval = setInterval(() => {
+    const diff = target - new Date().getTime();
+    
+    // Calculate time remaining
+    const d = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const s = Math.floor((diff % (1000 * 60)) / 1000);
+
+    // Update display
+    document.getElementById("days").innerText = d;
+    document.getElementById("hours").innerText = h;
+    document.getElementById("minutes").innerText = m;
+    document.getElementById("seconds").innerText = s;
+
+    // Handle expiration
+    if (diff < 0) {
+        clearInterval(interval);
+        document.querySelector(".timer").innerHTML = "EXPIRED";
+    }
+}, 1000);
+
+</script>

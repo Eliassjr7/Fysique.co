@@ -1,24 +1,24 @@
 [
   {
     "id": 1,
-    "name": "Leanne Graham",
-    "url": "images/IMG_0290.JPG",
-    "price": "$35",
-    "email": "Sincere@april.biz",
-    "redirectUrl":"Caps.html"
+    "name": "Men's Navy Blue Long Sleeve",
+    "url": "Images/MensNavyBlueLongSleeve.PNG",
+    "price": "$40",
+    "email": "100% polyester for acitve movement",
+    "redirectUrl":"MenLongSleeve.html"
   },
   {
     "id": 2,
     "name": "Ervin Howell",
     "price": "$35",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/MenCS.JPG",
     "email": "Shanna@melissa.tv",
      "redirectUrl":"Caps.html"
   },
   {
     "id": 3,
     "name": "Clementine Bauch",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/MenCS.JPG",
     "price": "$55",
     "email": "Nathan@yesenia.net",
      "redirectUrl":"Caps.html"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Patricia Lebsack",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/MenCS.JPG",
     "price": "$95",
     "email": "Julianne.OConner@kory.org",
      "redirectUrl":"Caps.html"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Chelsey Dietrich",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/MenCS.JPG",
     "price": "$55",
     "email": "Lucio_Hettinger@annie.ca",
      "redirectUrl":"Caps.html"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Mrs. Dennis Schulist",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/MenCS.JPG",
     "price": "$155",
     "email": "Karley_Dach@jasper.info",
      "redirectUrl":"Caps.html"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Kurtis Weissnat",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price": "$65",
     "email": "Telly.Hoeger@billy.biz",
      "redirectUrl":"Caps.html"
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "name": "Nicholas Runolfsdottir V",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price": "$35",
     "email": "Sherwood@rosamond.me",
      "redirectUrl":"Caps.html"
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "name": "Glenna Reichert",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price":"$55",
     "email": "Chaim_McDermott@dana.io",
      "redirectUrl":"Caps.html"
@@ -74,31 +74,31 @@
   {
     "id": 10,
     "name": "Clementina DuBuque",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price": "$35",
     "email": "Rey.Padberg@karina.biz",
      "redirectUrl":"Caps.html"
   },
    {
-    "id": 10,
+    "id": 11,
     "name": "Clementina DuBuque",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price":"$25",
     "email": "Rey.Padberg@karina.biz",
      "redirectUrl":"Caps.html"
   },
    {
-    "id": 10,
+    "id": 12,
     "name": "Clementina DuBuque",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price":"$65",
     "email": "Rey.Padberg@karina.biz",
      "redirectUrl":"Caps.html"
   },
    {
-    "id": 10,
+    "id": 13,
     "name": "Clementina DuBuque",
-    "url": "images/IMG_0290.JPG",
+    "url": "Images/WomenCS.JPG",
     "price":"$35",
     "email": "Rey.Padberg@karina.biz",
      "redirectUrl":"Caps.html"

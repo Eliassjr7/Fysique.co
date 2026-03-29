@@ -1,75 +1,75 @@
 [
   {
     "id": 1,
-    "name": "Men's Navy Blue Long Sleeve",
+    "name": "Mens Navy Blue Long Sleeve",
     "url": "Images/MensNavyBlueLongSleeve.PNG",
-    "price": "$40",
+    "price": "$",
     "email": "100% polyester for acitve movement",
     "redirectUrl":"MenLongSleeve.html"
   },
   {
     "id": 2,
-    "name": "Ervin Howell",
-    "price": "$35",
+    "name": "Classic Gray Cropped Hoodie",
+    "price": "$",
     "url": "Images/MenCS.JPG",
-    "email": "Shanna@melissa.tv",
-     "redirectUrl":"Caps.html"
+    "email": "Front & Back Branding, 9.1 oz Cotton-polyester",
+     "redirectUrl":"WomenHoodies.html"
   },
   {
     "id": 3,
-    "name": "Clementine Bauch",
+    "name": "Classic Black Cropped Hoodie",
     "url": "Images/MenCS.JPG",
-    "price": "$55",
-    "email": "Nathan@yesenia.net",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Front & Back Branding, 9.1 oz Cotton-polyester",
+     "redirectUrl":"WomenHoodies.html"
   },
   {
     "id": 4,
-    "name": "Patricia Lebsack",
+    "name": "Classic Black Fit Hoodie",
     "url": "Images/MenCS.JPG",
-    "price": "$95",
-    "email": "Julianne.OConner@kory.org",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+     "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 5,
-    "name": "Chelsey Dietrich",
+    "name": "Classic Gray Fit Hoodie",
     "url": "Images/MenCS.JPG",
-    "price": "$55",
-    "email": "Lucio_Hettinger@annie.ca",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+     "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 6,
-    "name": "Mrs. Dennis Schulist",
+    "name": "Classic Navy Blue Fit Hoodie",
     "url": "Images/MenCS.JPG",
-    "price": "$155",
-    "email": "Karley_Dach@jasper.info",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+     "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 7,
-    "name": "Kurtis Weissnat",
+    "name": "Classic Black Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
-    "price": "$65",
-    "email": "Telly.Hoeger@billy.biz",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Rear Branding, 85% Cotton 15% Polyester",
+     "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 8,
-    "name": "Nicholas Runolfsdottir V",
+    "name": "Classic Gray Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
-    "price": "$35",
-    "email": "Sherwood@rosamond.me",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Rear Branding, 85% Cotton 15% Polyester",
+     "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 9,
-    "name": "Glenna Reichert",
+    "name": "Classic Navy Blue Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
-    "price":"$55",
-    "email": "Chaim_McDermott@dana.io",
-     "redirectUrl":"Caps.html"
+    "price":"$",
+    "email": "Rear Branding, 85% Cotton 15% Polyester",
+     "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 10,

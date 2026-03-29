@@ -476,7 +476,7 @@
 
          }
          .hero{
-            background-image: url("Images/IMG_0290.jpg");
+            background-image: url("Images/new\ hero.jpeg");
          }
          .hero1{ 
             background-image: url("Images/IMG_0291.jpg");
@@ -593,7 +593,7 @@ main{
             background-size: 100%;
             
          }
-         .winter{background-image: url("Images/IMG_0286.jpg");}
+         .winter{background-image: url("Images/hoodies.PNG");}
          .spring{background-image: url("Images/IMG_0286.jpg");}
          .summer{background-image: url("Images/IMG_0286.jpg");}
          .fall{background-image: url("Images/IMG_0286.jpg");}
@@ -622,12 +622,23 @@ main{
         height:400px;
         width:250px;
         margin:3px; 
-        background-image: url(Images/IMG_0291.jpg);
-        background-size: 270%;
+        
+        background-size: 150%;
         background-repeat: no-repeat;
         text-indent: -99999999px;
+        background-position: center;
     }  
-
+    .mpic1{background-image: url(Images/MensNavyBlueLongSleeve.PNG);}
+    .mpic2{background-image: url(Images/new\ hero.jpeg);}
+    .mpic3{background-image: url(Images/hoodies.PNG);}
+    .mpic4{background-image: url(Images/MenCS.JPG);}
+    .mpic5{background-image: url(Images/WomenCS.JPG);}
+    .mpic6{background-image: url(Images/hoodies.PNG);}
+    .mpic7{background-image: url(Images/new\ hero.jpeg);}
+    .mpic8{background-image: url(Images/new\ hero.jpeg);}
+    .mpic9{background-image: url(Images/new\ hero.jpeg);}
+    .mpic10{background-image: url(Images/new\ hero.jpeg);}
+    .mpic11{background-image: url(Images/new\ hero.jpeg);}
 /* Text at the bottom of the page */
          
          .highlights{
@@ -764,7 +775,7 @@ main{
      .img-descriptions, .img-link
          { font-size: small;}
       .mobile{display: flex;}
-      .highlights{ padding:30px 10px 5px 10px;}
+      .highlights{ padding:60px 10px 5px 10px;}
       .h-text{font-size: medium;}
       .heros
          {  background-size:310%;

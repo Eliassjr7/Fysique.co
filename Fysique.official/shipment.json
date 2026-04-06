@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "name": "Mens Navy Blue Long Sleeve",
+    "name": "Classic Navy Blue Long Sleeve",
     "url": "Images/MensNavyBlueLongSleeve.PNG",
     "price": "$",
-    "email": "100% polyester for acitve movement",
+    "email": "100% polyester",
     "redirectUrl":"MenLongSleeve.html"
   },
   {
     "id": 2,
     "name": "Classic Gray Cropped Hoodie",
     "price": "$",
-    "url": "Images/MenCS.JPG",
-    "email": "Front & Back Branding, 9.1 oz Cotton-polyester",
+    "url": "Images/WomenCS.JPG",
+    "email": "Front & Back Branding 80% Cotton, 20% polyester",
      "redirectUrl":"WomenHoodies.html"
   },
   {
     "id": 3,
     "name": "Classic Black Cropped Hoodie",
-    "url": "Images/MenCS.JPG",
+    "url": "Images/WomenCS.JPG",
     "price": "$",
-    "email": "Front & Back Branding, 9.1 oz Cotton-polyester",
+    "email": "Front & Back Branding 80% Cotton, 20% polyester",
      "redirectUrl":"WomenHoodies.html"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Classic Black Fit Hoodie",
     "url": "Images/MenCS.JPG",
     "price": "$",
-    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+    "email": "Front & Back Branding 100% polyester",
      "redirectUrl":"MenHoodies.html"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Classic Gray Fit Hoodie",
     "url": "Images/MenCS.JPG",
     "price": "$",
-    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+    "email": "Front & Back Branding 100% polyester",
      "redirectUrl":"MenHoodies.html"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Classic Navy Blue Fit Hoodie",
     "url": "Images/MenCS.JPG",
     "price": "$",
-    "email": "Font & Back Branding, 8.8 oz 100% Cotton",
+    "email": "Front & Back Branding 100% polyester",
      "redirectUrl":"MenHoodies.html"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Classic Black Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
     "price": "$",
-    "email": "Rear Branding, 85% Cotton 15% Polyester",
+    "email": "Front Branding 85% Cotton, 15% Polyester",
      "redirectUrl":"MenSweatpants.html"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Classic Gray Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
     "price": "$",
-    "email": "Rear Branding, 85% Cotton 15% Polyester",
+    "email": "Front Branding 85% Cotton, 15% Polyester",
      "redirectUrl":"MenSweatpants.html"
   },
   {
@@ -68,40 +68,128 @@
     "name": "Classic Navy Blue Straight Sweatpants",
     "url": "Images/WomenCS.JPG",
     "price":"$",
-    "email": "Rear Branding, 85% Cotton 15% Polyester",
+    "email": "Front Branding 85% Cotton, 15% Polyester",
      "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 10,
-    "name": "Clementina DuBuque",
+    "name": "Classic High-Waisted Black Yoga Leggings",
     "url": "Images/WomenCS.JPG",
-    "price": "$35",
-    "email": "Rey.Padberg@karina.biz",
-     "redirectUrl":"Caps.html"
+    "price": "$",
+    "email": "Rear Branding 80% nylon, 20% spandex",
+     "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 11,
-    "name": "Clementina DuBuque",
+    "name": "Classic High-Waisted Haze Blue Yoga Leggings",
     "url": "Images/WomenCS.JPG",
-    "price":"$25",
-    "email": "Rey.Padberg@karina.biz",
-     "redirectUrl":"Caps.html"
+    "price":"$",
+    "email": "Rear Branding 80% nylon, 20% spandex",
+     "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 12,
-    "name": "Clementina DuBuque",
+    "name": "Classic High-Waisted Pink Yoga Leggings",
     "url": "Images/WomenCS.JPG",
-    "price":"$65",
-    "email": "Rey.Padberg@karina.biz",
-     "redirectUrl":"Caps.html"
+    "price":"$",
+    "email": "Rear Branding 80% nylon, 20% spandex",
+     "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 13,
-    "name": "Clementina DuBuque",
+    "name": "Black Yoga Sports Bra",
     "url": "Images/WomenCS.JPG",
-    "price":"$35",
-    "email": "Rey.Padberg@karina.biz",
-     "redirectUrl":"Caps.html"
+    "price":"$",
+    "email": "Front & Back Branding 87% nylon, 13% spandex",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 14,
+    "name": "Haze Blue Yoga Sports Bra",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Front & Back Branding 87% nylon, 13% spandex",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 15,
+    "name": "Pink Yoga Sports Bra",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Front & Back Branding 87% nylon, 13% spandex",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 16,
+    "name": "Criss Cross Black Yoga Sports Bra",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Front Branding 75% nylon, 25% spandex",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 17,
+    "name": "Classic Gray Sweatshorts",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Front Branding 57% polyester, 36% cotton, 7% other",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 18,
+    "name": "Classic Black Sweatshorts",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Front Branding 57% polyester, 36% cotton, 7% other",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 19,
+    "name": "Gray Long Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Black Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 20,
+    "name": "Gray Short Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "Black Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 21,
+    "name": "Gray Long Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "White Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 22,
+    "name": "Gray Short Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "White Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 23,
+    "name": "Black Long Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "White Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 24,
+    "name": "Black Short Sleeve Compression",
+    "url": "Images/WomenCS.JPG",
+    "price":"$",
+    "email": "White Front Branding 87% polyester, 13% spandex",
+     "redirectUrl":"MenCompression.html"
   }
 
 ]

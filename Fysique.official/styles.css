@@ -476,7 +476,7 @@
 
          }
          .hero{
-            background-image: url("Images/new\ hero.jpeg");
+            background-image: url("Images/IMG_0291.jpg");
          }
          .hero1{ 
             background-image: url("Images/IMG_0291.jpg");
@@ -590,20 +590,21 @@ main{
             text-indent: -99999999px;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: 100%;
+                 
+              background-size: cover;       
             
          }
          .winter{background-image: url("Images/hoodies.PNG");}
-         .spring{background-image: url("Images/IMG_0286.jpg");}
-         .summer{background-image: url("Images/IMG_0286.jpg");}
-         .fall{background-image: url("Images/IMG_0286.jpg");}
+         .spring{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
+         .summer{background-image: url("Images/desktoptpic2.avif");}
+         .fall{background-image: url("Images/desktoptpic3.avif");}
          .lifting{background-image: url("Images/IMG_0286.jpg");}
-         .running{background-image: url("Images/IMG_0286.jpg");}
+         .running{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
          .swimming{background-image: url("Images/IMG_0286.jpg");}
          .hiit{background-image: url("Images/IMG_0286.jpg");}
-         .men{background-image: url("Images/IMG_0286.jpg");}
-         .women{background-image: url("Images/IMG_0286.jpg");}
-         .accessories{background-image: url("Images/IMG_0286.jpg");}
+         .men{background-image: url("Images/desktoptpic3.avif");}
+         .women{background-image: url("Images/desktoptpic2.avif");}
+         .accessories{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
 /* mobile categories fix the display with caption and the different pictures*/
     .moblie-collection{ 
         overflow: hidden;overflow-x: auto;
@@ -628,17 +629,17 @@ main{
         text-indent: -99999999px;
         background-position: center;
     }  
-    .mpic1{background-image: url(Images/MensNavyBlueLongSleeve.PNG);}
-    .mpic2{background-image: url(Images/new\ hero.jpeg);}
-    .mpic3{background-image: url(Images/hoodies.PNG);}
-    .mpic4{background-image: url(Images/MenCS.JPG);}
-    .mpic5{background-image: url(Images/WomenCS.JPG);}
-    .mpic6{background-image: url(Images/hoodies.PNG);}
-    .mpic7{background-image: url(Images/new\ hero.jpeg);}
-    .mpic8{background-image: url(Images/new\ hero.jpeg);}
-    .mpic9{background-image: url(Images/new\ hero.jpeg);}
-    .mpic10{background-image: url(Images/new\ hero.jpeg);}
-    .mpic11{background-image: url(Images/new\ hero.jpeg);}
+    .mpic1{background-image: url(Images/m1tpic.avif);}
+    .mpic2{background-image: url(Images/m2tpic.avif);}
+    .mpic3{background-image: url(Images/m3tpic.avif);}
+    .mpic4{background-image: url(Images/m4tpic.avif);}
+    .mpic5{background-image: url(Images/m5testpic.avif);}
+    .mpic6{background-image: url(Images/m6tpic.avif);}
+    .mpic7{background-image: url(Images/m7tpic.avif);}
+    .mpic8{background-image: url(Images/m8tpic.avif);}
+    .mpic9{background-image: url(Images/m9tpic.avif);}
+    .mpic10{background-image: url(Images/m10tpic.avif);}
+    .mpic11{background-image: url(Images/m11tpic.avif);}
 /* Text at the bottom of the page */
          
          .highlights{
@@ -734,9 +735,6 @@ main{
         height: 25px;
         width: 25px;
         }
-        .collection, .workout, .category{
-         background-size: 250%;
-        }
         .mobile{display: flex;}
         footer{display: none;}
 } 
@@ -778,7 +776,8 @@ main{
       .highlights{ padding:60px 10px 5px 10px;}
       .h-text{font-size: medium;}
       .heros
-         {  background-size:310%;
+         { 
+            background-size:310%;
             height: 530px;
          }
             .productslider{

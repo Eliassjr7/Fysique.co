@@ -467,7 +467,8 @@
          .heros{
             background-color: black;
             height: 690px;
-            background-size: 100%;
+            /* background-size: 100%; */
+            background-size: cover;
             background-position: center;     
             background-repeat: no-repeat;       
             text-indent: -999999px; 
@@ -476,13 +477,13 @@
 
          }
          .hero{
-            background-image: url("Images/IMG_0291.jpg");
+            background-image: url("Images/hero2.jpeg");
          }
          .hero1{ 
-            background-image: url("Images/IMG_0291.jpg");
+            background-image: url("Images/hero3.jpeg");
          }
          .hero2{ 
-            background-image: url("Images/IMG_0289.jpg");
+            background-image: url("Images/Testing.avif");
          }
          .img-descriptions{
             margin-top: auto;
@@ -568,11 +569,13 @@
 }
 /* Main Titles Between Sections */
 main{
-   margin: 5% 1% ; 
+   margin: 0px 0 35px 15px; 
    text-transform: uppercase;
    font-weight:bolder ;
    font-size: 1.5rem;
-   
+}
+.firstmain{
+   margin-top: 50px;
 }
        
 /* Collections, Workouts, Caategories img */
@@ -594,17 +597,19 @@ main{
               background-size: cover;       
             
          }
-         .winter{background-image: url("Images/hoodies.PNG");}
-         .spring{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
-         .summer{background-image: url("Images/desktoptpic2.avif");}
-         .fall{background-image: url("Images/desktoptpic3.avif");}
-         .lifting{background-image: url("Images/IMG_0286.jpg");}
-         .running{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
-         .swimming{background-image: url("Images/IMG_0286.jpg");}
-         .hiit{background-image: url("Images/IMG_0286.jpg");}
-         .men{background-image: url("Images/desktoptpic3.avif");}
-         .women{background-image: url("Images/desktoptpic2.avif");}
-         .accessories{background-image: url("Images/Desktoptpic1\,6\,10.avif");}
+         .winter{background-image: url("Images/winter\ shorts.PNG");}
+         .spring{background-image: url("Images/Hoodie\ 2.png");}
+         .summer{background-image: url("Images/spring\ leggings.jpg");}
+         .fall{background-image: url("Images/sports\ bra.png");}
+         .men{background-image: url("Images/Cap.jpeg");}
+         .women{background-image: url("Images/Bag.jpeg");}
+         .accessories{background-image: url("Images/Belt.jpeg");}
+         .lifting{background-image: url("Images/short\ sleeve.jpeg");}
+         .running{background-image: url("Images/Long\ Sleeve\ Compression.jpeg");}
+         .swimming{background-image: url("Images/hoodies.PNG");}
+         .hiit{background-image: url("Images/Sweatpants\ Navy\ Blue.jpeg");}
+
+         
 /* mobile categories fix the display with caption and the different pictures*/
     .moblie-collection{ 
         overflow: hidden;overflow-x: auto;
@@ -623,23 +628,23 @@ main{
         height:400px;
         width:250px;
         margin:3px; 
-        
-        background-size: 150%;
+        /* background-size: 150%; */
+        background-size: cover;
         background-repeat: no-repeat;
         text-indent: -99999999px;
         background-position: center;
     }  
-    .mpic1{background-image: url(Images/m1tpic.avif);}
-    .mpic2{background-image: url(Images/m2tpic.avif);}
-    .mpic3{background-image: url(Images/m3tpic.avif);}
-    .mpic4{background-image: url(Images/m4tpic.avif);}
-    .mpic5{background-image: url(Images/m5testpic.avif);}
-    .mpic6{background-image: url(Images/m6tpic.avif);}
-    .mpic7{background-image: url(Images/m7tpic.avif);}
-    .mpic8{background-image: url(Images/m8tpic.avif);}
-    .mpic9{background-image: url(Images/m9tpic.avif);}
-    .mpic10{background-image: url(Images/m10tpic.avif);}
-    .mpic11{background-image: url(Images/m11tpic.avif);}
+    .mpic1{background-image: url(Images/winter\ shorts.PNG);}
+    .mpic2{background-image: url(Images/Hoodie\ 2.png);}
+    .mpic3{background-image: url(Images/spring\ leggings.jpg);}
+    .mpic4{background-image: url(Images/sports\ bra.png);}
+    .mpic5{background-image: url(Images/Cap.jpeg);}
+    .mpic6{background-image: url(Images/Bag.jpeg);}
+    .mpic7{background-image: url(Images/Belt.jpeg);}
+    .mpic8{background-image: url(Images/short\ sleeve.jpeg);}
+    .mpic9{background-image: url(Images/Long\ Sleeve\ Compression.jpeg);}
+    .mpic10{background-image: url(Images/hoodies.PNG);}
+    .mpic11{background-image: url(Images/Sweatpants\ Navy\ Blue.jpeg);}
 /* Text at the bottom of the page */
          
          .highlights{
@@ -752,7 +757,8 @@ main{
          margin-top: 1px;
          padding: 30px;}
         .heros
-         {  background-size:190%;
+         {   background-size: cover;
+             /* background-size:190%; */
             height: 530px;
          }
          .Hbuttons{
@@ -776,8 +782,8 @@ main{
       .highlights{ padding:60px 10px 5px 10px;}
       .h-text{font-size: medium;}
       .heros
-         { 
-            background-size:310%;
+         { background-size: cover;
+            /* background-size:310%; */
             height: 530px;
          }
             .productslider{

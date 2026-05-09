@@ -519,11 +519,12 @@
             color: black;
             padding: 0px;     
             margin: 0px;    
-            text-transform: uppercase; 
+            text-transform: capitalize; 
                }
          .productslider figure{
-            float: left;
+            float: left; 
             margin: 60px 5px;
+            max-width: 200px;
 
          }
          .productslider figure img{

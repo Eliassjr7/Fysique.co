@@ -1,195 +1,258 @@
 [
   {
     "id": 1,
-    "name": "Classic Navy Blue Long Sleeve",
+    "name": "One-Time-Only",
     "url": "Images/MensNavyBlueLongSleeve.PNG",
     "price": "$",
-    "email": "100% polyester",
+    "email": "May 15 - May 30 -- 1 of 10",
     "redirectUrl":"MenLongSleeve.html"
   },
   {
     "id": 2,
     "name": "Classic Gray Cropped Hoodie",
     "price": "$",
-    "url": "Images/WomenCS.JPG",
-    "email": "Front & Back Branding 80% Cotton, 20% polyester",
+    "url": "Images/grey cropped hoodie.jpeg",
+    "email": "Front & Back Branding",
      "redirectUrl":"WomenHoodies.html"
   },
   {
     "id": 3,
     "name": "Classic Black Cropped Hoodie",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/black cropped hoodie.jpeg",
     "price": "$",
-    "email": "Front & Back Branding 80% Cotton, 20% polyester",
+    "email": "Front & Back Branding",
      "redirectUrl":"WomenHoodies.html"
   },
   {
     "id": 4,
     "name": "Classic Black Fit Hoodie",
-    "url": "Images/MenCS.JPG",
+    "url": "Images/black hoodie.jpeg",
     "price": "$",
-    "email": "Front & Back Branding 100% polyester",
+    "email": "Front & Back Branding",
      "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 5,
     "name": "Classic Gray Fit Hoodie",
-    "url": "Images/MenCS.JPG",
+    "url": "Images/grey hoodie.jpeg",
     "price": "$",
-    "email": "Front & Back Branding 100% polyester",
+    "email": "Front & Back Branding",
      "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 6,
     "name": "Classic Navy Blue Fit Hoodie",
-    "url": "Images/MenCS.JPG",
+    "url": "Images/navy blue hoodie.jpeg",
     "price": "$",
-    "email": "Front & Back Branding 100% polyester",
+    "email": "Front & Back Branding",
      "redirectUrl":"MenHoodies.html"
   },
   {
     "id": 7,
     "name": "Classic Black Straight Sweatpants",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/black sweatpants.png",
     "price": "$",
-    "email": "Front Branding 85% Cotton, 15% Polyester",
+    "email": "Front Branding",
      "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 8,
     "name": "Classic Gray Straight Sweatpants",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/grey sweatpants.png",
     "price": "$",
-    "email": "Front Branding 85% Cotton, 15% Polyester",
+    "email": "Front Branding",
      "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 9,
     "name": "Classic Navy Blue Straight Sweatpants",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/navy blue sweatpants.png",
     "price":"$",
-    "email": "Front Branding 85% Cotton, 15% Polyester",
+    "email": "Front Branding",
      "redirectUrl":"MenSweatpants.html"
   },
   {
     "id": 10,
     "name": "Classic High-Waisted Black Yoga Leggings",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/black leggings.jpeg",
     "price": "$",
-    "email": "Rear Branding 80% nylon, 20% spandex",
+    "email": "Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 11,
     "name": "Classic High-Waisted Haze Blue Yoga Leggings",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/haze blue leggings.jpeg",
     "price":"$",
-    "email": "Rear Branding 80% nylon, 20% spandex",
+    "email": "Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 12,
-    "name": "Classic High-Waisted Pink Yoga Leggings",
-    "url": "Images/WomenCS.JPG",
+    "name": "Classic High-Waisted Rose Pink Yoga Leggings",
+    "url": "Images/pink leggings.jpeg",
     "price":"$",
-    "email": "Rear Branding 80% nylon, 20% spandex",
+    "email": "Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 13,
     "name": "Black Yoga Sports Bra",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/black sports bra.jpeg",
     "price":"$",
-    "email": "Front & Back Branding 87% nylon, 13% spandex",
+    "email": "Front & Back Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 14,
     "name": "Haze Blue Yoga Sports Bra",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/haze blue sports bra.png",
     "price":"$",
-    "email": "Front & Back Branding 87% nylon, 13% spandex",
+    "email": "Front & Back Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 15,
-    "name": "Pink Yoga Sports Bra",
-    "url": "Images/WomenCS.JPG",
+    "name": "Rose Pink Yoga Sports Bra",
+    "url": "Images/rose pink sports bra.jpeg",
     "price":"$",
-    "email": "Front & Back Branding 87% nylon, 13% spandex",
+    "email": "Front & Back Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 16,
     "name": "Criss Cross Black Yoga Sports Bra",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/cris cros black sports bra.png",
     "price":"$",
-    "email": "Front Branding 75% nylon, 25% spandex",
+    "email": "Front Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 17,
     "name": "Classic Gray Sweatshorts",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/grey sweatshorts.jpeg",
     "price":"$",
-    "email": "Front Branding 57% polyester, 36% cotton, 7% other",
+    "email": "Front Branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 18,
     "name": "Classic Black Sweatshorts",
-    "url": "Images/WomenCS.JPG",
+    "url": "Images/black sweatshorts.jpeg",
     "price":"$",
-    "email": "Front Branding 57% polyester, 36% cotton, 7% other",
+    "email": "Front Branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 19,
-    "name": "Gray Long Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Gray Long Sleeve Compression Shirt",
+    "url": "Images/gray long sleeve bl compression.JPG",
     "price":"$",
-    "email": "Black Front Branding 87% polyester, 13% spandex",
+    "email": "Black Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 20,
-    "name": "Gray Short Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Gray Short Sleeve Compression Shirt",
+    "url": "Images/gray short sleeve bl compreesion.JPG",
     "price":"$",
-    "email": "Black Front Branding 87% polyester, 13% spandex",
+    "email": "Black Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 21,
-    "name": "Gray Long Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Gray Long Sleeve Compression Shirt",
+    "url": "Images/gray long sleeve wl compression.JPG",
     "price":"$",
-    "email": "White Front Branding 87% polyester, 13% spandex",
+    "email": "White Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 22,
-    "name": "Gray Short Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Gray Short Sleeve Compression Shirt",
+    "url": "Images/gray short sleeve wl compression.JPG",
     "price":"$",
-    "email": "White Front Branding 87% polyester, 13% spandex",
+    "email": "White Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 23,
-    "name": "Black Long Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Black Long Sleeve Compression Shirt",
+    "url": "Images/black long sleeve wl compression.JPG",
     "price":"$",
-    "email": "White Front Branding 87% polyester, 13% spandex",
+    "email": "White Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 24,
-    "name": "Black Short Sleeve Compression",
-    "url": "Images/WomenCS.JPG",
+    "name": "Black Short Sleeve Compression Shirt",
+    "url": "Images/black short sleeve wl compression.JPG",
     "price":"$",
-    "email": "White Front Branding 87% polyester, 13% spandex",
+    "email": "White Front Branding",
      "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 25,
+    "name": "Gray Blue High-Waisted Yoga Shorts",
+    "url": "Images/gray blue shorts.jpeg",
+    "price":"$",
+    "email": "Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 26,
+    "name": "Black High-Waisted Yoga Shorts",
+    "url": "Images/black shorts.jpeg",
+    "price":"$",
+    "email": "Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 27,
+    "name": "Dark Gray High-Waisted Yoga Shorts",
+    "url": "Images/dark gray shorts.jpeg",
+    "price":"$",
+    "email": "Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 28,
+    "name": "Purple High-Waisted Yoga Shorts",
+    "url": "Images/purple shorts.jpeg",
+    "price":"$",
+    "email": "Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 29,
+    "name": "Gray Blue Yoga Sports Bra",
+    "url": "Images/gray blue shorts.jpeg",
+    "price":"$",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+     {
+    "id": 30,
+    "name": "Dark Gray Yoga Sports Bra",
+    "url": "Images/dark gray sports bra.jpeg",
+    "price":"$",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+     {
+    "id": 31,
+    "name": "Purple Yoga Sports Bra",
+    "url": "Images/purple sports bra.jpeg",
+    "price":"$",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+     {
+    "id": 32,
+    "name": "Sorona Fabric Tank Top",
+    "url": "Images/black tanktop.jpeg",
+    "price":"$",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"MenTankTops.html"
   }
-
 ]

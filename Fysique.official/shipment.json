@@ -76,7 +76,7 @@
     "name": "Classic High-Waisted Black Yoga Leggings",
     "url": "Images/black leggings.jpeg",
     "price": "$",
-    "email": "Rear Branding",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
    {
@@ -84,16 +84,16 @@
     "name": "Classic High-Waisted Haze Blue Yoga Leggings",
     "url": "Images/haze blue leggings.jpeg",
     "price":"$",
-    "email": "Rear Branding",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
    {
     "id": 12,
-    "name": "Classic High-Waisted Rose Pink Yoga Leggings",
-    "url": "Images/pink leggings.jpeg",
+    "name": "White High-Waisted Yoga Shorts",
+    "url": "Images/white set.PNG",
     "price":"$",
     "email": "Rear Branding",
-     "redirectUrl":"WomenLeggings.html"
+     "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 13,
@@ -113,10 +113,10 @@
   },
    {
     "id": 15,
-    "name": "Rose Pink Yoga Sports Bra",
-    "url": "Images/rose pink sports bra.jpeg",
+    "name": "White Yoga Sports Bra",
+    "url": "Images/white set.PNG",
     "price":"$",
-    "email": "Front & Back Branding",
+    "email": "Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
@@ -145,7 +145,7 @@
   },
    {
     "id": 19,
-    "name": "Gray Long Sleeve Compression Shirt",
+    "name": "Gray Long Sleeve Compression T-shirt",
     "url": "Images/gray long sleeve bl compression.JPG",
     "price":"$",
     "email": "Black Front Branding",
@@ -153,15 +153,15 @@
   },
    {
     "id": 20,
-    "name": "Gray Short Sleeve Compression Shirt",
-    "url": "Images/gray short sleeve bl compreesion.JPG",
+    "name": "Gray Short Sleeve Compression T-shirt",
+    "url": "Images/gray short sleeve bl compression.JPG",
     "price":"$",
     "email": "Black Front Branding",
      "redirectUrl":"MenCompression.html"
   },
    {
     "id": 21,
-    "name": "Gray Long Sleeve Compression Shirt",
+    "name": "Gray Long Sleeve Compression T-shirt",
     "url": "Images/gray long sleeve wl compression.JPG",
     "price":"$",
     "email": "White Front Branding",
@@ -169,7 +169,7 @@
   },
    {
     "id": 22,
-    "name": "Gray Short Sleeve Compression Shirt",
+    "name": "Gray Short Sleeve Compression T-shirt",
     "url": "Images/gray short sleeve wl compression.JPG",
     "price":"$",
     "email": "White Front Branding",
@@ -177,7 +177,7 @@
   },
    {
     "id": 23,
-    "name": "Black Long Sleeve Compression Shirt",
+    "name": "Black Long Sleeve Compression T-shirt",
     "url": "Images/black long sleeve wl compression.JPG",
     "price":"$",
     "email": "White Front Branding",
@@ -185,7 +185,7 @@
   },
    {
     "id": 24,
-    "name": "Black Short Sleeve Compression Shirt",
+    "name": "Black Short Sleeve Compression T-shirt",
     "url": "Images/black short sleeve wl compression.JPG",
     "price":"$",
     "email": "White Front Branding",

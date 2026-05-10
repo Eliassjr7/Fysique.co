@@ -477,13 +477,13 @@
 
          }
          .hero{
-            background-image: url("Images/hero2.jpeg");
+            background-image: url("Images/hero1.JPG");
          }
          .hero1{ 
-            background-image: url("Images/hero3.jpeg");
+            background-image: url("Images/hero2.jpg");
          }
          .hero2{ 
-            background-image: url("Images/Testing.avif");
+            background-image: url("Images/hero3.jpg");
          }
          .img-descriptions{
             margin-top: auto;
@@ -745,7 +745,8 @@ main{
         footer{display: none;}
 } 
 @media screen and (max-width: 750px) {
-     .collection, .workout, .category, .btn, .countdown-container{display: none;}
+     .collection, .workout, .category, .btn, 
+     .countdown-container{display: none;}
    .moblie-collection ul{display: inline-flex;
                margin: 15px;}
      .img-descriptions, .img-link

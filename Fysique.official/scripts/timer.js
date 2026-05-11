@@ -1,5 +1,5 @@
 // Java script for Men timer; Set target date
-const Mtarget = new Date("Mar 26, 2026 16:00:00").getTime();
+const Mtarget = new Date("Mar 30, 2026 16:00:00").getTime();
 
 // Update every second
 const Minterval = setInterval(() => {
@@ -24,7 +24,7 @@ const Minterval = setInterval(() => {
     }
 }, 1000);
 // Java script for women timer; Set target date
-const Wtarget = new Date("Mar 26, 2026 16:00:00").getTime();
+const Wtarget = new Date("Mar 30, 2026 16:00:00").getTime();
 
 // Update every second
 const Winterval = setInterval(() => {

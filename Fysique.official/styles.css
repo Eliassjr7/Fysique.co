@@ -425,6 +425,13 @@
       color: lightgray;
     }
 
+    .kit, .kittext{
+      
+      text-align: center;
+      margin-right:auto;
+      margin-left:auto ;
+      padding: 10px;
+   }
 /* Shopify buy button */
 /* body */
     button{ 
@@ -546,23 +553,42 @@
             width: 200px;
          }    
 
+         /* Swtich the Fcountdown back to -70 and kittext back to 0 and take off the section blanks*/
 /* Container for timer */
-.countdown-container {
-    text-align: center; 
-    justify-content: center;
-    padding: 30px;
+.blanks{
+   display: contents;
+}
+.kittext{
+   /* margin-bottom: -150px; */
+}
+.Fcountdown-container{
+margin-top: -107px;
+   /* margin-top: -70px; */
+   z-index: 0;
+   background-color: white;
+   text-align: center; 
+   justify-content: center;
+   padding: 30px;
+   
+   margin-left: auto;
+   margin-right: auto;
+}
+.countdown-container{
+   text-align: center; 
+   justify-content: center;
+   padding: 30px;
    margin: 90px;
    margin-left: auto;
    margin-right: auto;
 }
 
-.Mtimer, .Wtimer {
+.Mtimer, .Wtimer, .Ftimer {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.Mtimer div, .Wtimer div {
+.Mtimer div, .Wtimer div, .Ftimer div {
     background: #333;
     color: white;
     padding: 15px;
@@ -570,12 +596,12 @@
     width: 80px;
 }
 
-.Mtimer p, .Wtimer p {
+.Mtimer p, .Wtimer p, .Ftimer p {
     font-size: 2.5rem;
     margin: 0;
 }
 
-.Mtimer span, .Wtimer span {
+.Mtimer span, .Wtimer span, .Ftimer span {
     font-size: 0.8rem;
     text-transform: uppercase;
 }
@@ -669,6 +695,10 @@ main{
             text-transform: uppercase;
             font-weight: 900;
          }
+         .hh-text{
+            text-transform: capitalize;
+            font-weight: 900;
+         }
          .descriptions{
              font-size: small; 
          }      
@@ -720,6 +750,7 @@ main{
 /* you can add two arguments to the media screen this is homwwork and fix responsiveness */
 
  @media screen and (max-width: 1350px) {
+
       .tab-panels ul li
          { display: none;}
           .search-icon p {
@@ -754,6 +785,36 @@ main{
         }
         .mobile{display: flex;}
         footer{display: none;}
+        
+
+/* This is temporay margin to hid kit */
+
+.Fcountdown-container{
+   max-width: 680px;
+   margin-top:-60px ;
+}
+.Ftimer{
+            gap:2px
+            }
+         .Ftimer div{
+            height: 60;
+            padding: 10px;
+            width: 40px;
+         }
+         .Ftimer p{
+            font-size: 1.5rem;
+         }
+         .Ftimer span{
+            font-size: 0.4rem;
+         }
+.kittext{max-width:680px ;}
+.kit{
+   max-width: 680px;
+   padding: 20px;}
+
+/* end here */
+
+
 } 
 @media screen and (max-width: 750px) {
      .collection, .workout, .category, .btn, 
@@ -784,6 +845,39 @@ main{
    font-size: 1.5rem;
    
 }
+
+
+
+/* This is temporay margin to hid kit */
+
+/* This is temporay margin to hid kit */
+
+.Fcountdown-container{
+   max-width: 380px;
+   margin-top:-60px ;
+}
+.Ftimer{
+            gap:2px
+            }
+         .Ftimer div{
+            height: 60;
+            padding: 10px;
+            width: 40px;
+         }
+         .Ftimer p{
+            font-size: 1.5rem;
+         }
+         .Ftimer span{
+            font-size: 0.4rem;
+         }
+.kittext{max-width:380px ;}
+.kit{
+   max-width: 380px;
+   padding: 20px;}
+
+/* end here */
+
+/* end here */
  
 } 
 @media screen and (max-width: 400px) {
@@ -794,6 +888,7 @@ main{
       .mobile{display: flex;}
       .highlights{ padding:60px 10px 5px 10px;}
       .h-text{font-size: medium;}
+      .hh-text{font-size: medium}
       .heros
          { background-size: cover;
             /* background-size:310%; */
@@ -803,6 +898,32 @@ main{
                padding: 0;
                margin-left: -25px;
             }
+/* This is temporay margin to hid kit */
+
+.Fcountdown-container{
+   max-width: 300px;
+   margin-top:-60px ;
+}
+.kittext{max-width:300px ;}
+.kit{
+   max-width: 300px;
+   padding: 20px;}
+
+/* end here */
+         .Ftimer{
+            gap:2px
+            }
+         .Ftimer div{
+            height: 40;
+            padding: 10px;
+            width: 30px;
+         }
+         .Ftimer p{
+            font-size: 1.5rem;
+         }
+         .Ftimer span{
+            font-size: 0.4rem;
+         }
    /* working */
 } 
  

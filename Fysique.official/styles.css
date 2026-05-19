@@ -559,13 +559,15 @@
    display: contents;
 }
 .kittext{
-   /* margin-bottom: -150px; */
+   
 }
 .Fcountdown-container{
-margin-top: -107px;
+background-color: white;
    /* margin-top: -70px; */
    z-index: 0;
-   background-color: white;
+   /* margin-top: -350px; */
+ 
+
    text-align: center; 
    justify-content: center;
    padding: 30px;

@@ -161,82 +161,82 @@
   },
    {
     "id": 25,
-    "name": "Gray Blue High-Waisted Yoga Shorts",
+    "name": "Gray Blue High-Waisted Legging Shorts",
     "url": "Images/gray blue shorts.WEBP",
     "price":"$34",
-    "email": "Rear branding",
+    "email": "Front & Rear branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 26,
-    "name": "Black High-Waisted Yoga Shorts",
+    "name": "Black High-Waisted Legging Shorts",
     "url": "Images/black shorts.WEBP",
     "price":"$34",
-    "email": "Rear branding",
+    "email": "Front & Rear branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 12,
-    "name": "White High-Waisted Yoga Shorts",
+    "name": "White High-Waisted Legging Shorts",
     "url": "Images/white shorts.WEBP",
     "price":"$34",
-    "email": "Rear Branding",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 27,
-    "name": "Dark Gray High-Waisted Yoga Shorts",
+    "name": "Dark Gray High-Waisted Legging Shorts",
     "url": "Images/dark gray shorts.WEBP",
     "price":"$34",
-    "email": "Rear branding",
+    "email": "Front & Rear branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 28,
-    "name": "Purple High-Waisted Yoga Shorts",
+    "name": "Purple High-Waisted Legging Shorts",
     "url": "Images/purple shorts.WEBP",
     "price":"$34",
-    "email": "Rear branding",
+    "email": "Front & Rear branding",
      "redirectUrl":"WomenShorts.html"
   },
    {
     "id": 29,
-    "name": "Gray Blue Yoga Sports Bra",
+    "name": "Gray Blue Sports Bra",
     "url": "Images/gray blue sports bra.WEBP",
-    "price":"$28",
-    "email": "Rear Branding",
+    "price":"$31",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
      {
     "id": 30,
-    "name": "Dark Gray Yoga Sports Bra",
+    "name": "Dark Gray Sports Bra",
     "url": "Images/dark gray sports bra.WEBP",
-    "price":"$28",
-    "email": "Rear Branding",
+    "price":"$31",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
      {
     "id": 31,
-    "name": "Purple Yoga Sports Bra",
+    "name": "Purple Sports Bra",
     "url": "Images/purple sports bra.WEBP",
-    "price":"$28",
-    "email": "Rear Branding",
+    "price":"$31",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 32,
-    "name": "Black Yoga Sports Bra",
+    "name": "Black Sports Bra",
     "url": "Images/black sports bra.WEBP",
-    "price":"$28",
-    "email": "Rear Branding",
+    "price":"$31",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
     "id": 15,
-    "name": "White Yoga Sports Bra",
+    "name": "White Sports Bra",
     "url": "Images/white sports bra.WEBP",
-    "price":"$28",
-    "email": "Rear Branding",
+    "price":"$31",
+    "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
    {
@@ -286,5 +286,61 @@
     "price":"$35",
     "email": "Front & Rear Branding",
      "redirectUrl":"MenTankTops.html"
+  },
+   {
+    "id": 33,
+    "name": "Gray Hooded Sports Jacket",
+    "url": "Images/gray hooded sports jacket.WEBP",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "Dark Blue Hooded Sports Jacket",
+    "url": "Images/dark blue hooded sports jacket.WEBP",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Hooded Sports Jacket",
+    "url": "Images/black hooded sports jacket.WEBP",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "White Slim Fit Jacket",
+    "url": "Images/white slim fit jacket.WEBP",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Light Purple Slim Fit Jacket",
+    "url": "Images/purple slim fit jacket.WEBP",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Slim Fit Jacket",
+    "url": "Images/black slim fit jacket.WEBP",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Striped Shorts",
+    "url": "Images/black striped shorts.WEBP",
+    "price":"$25",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
   }
 ]

@@ -81,7 +81,7 @@
 
          /* Panel tabs */
          .contents{
-            margin-right:60px;          
+            margin-right:3px;          
          } 
          .contents p{ color: darkgray;}
          .contents li{
@@ -495,6 +495,7 @@
 
          }
          .hero{
+            margin-top: 40px;
             background-image: url("Images/hero1.JPG");
          }
          .hero1{ 
@@ -548,7 +549,7 @@
          .productslider figure img{
             border: 1px solid white;
             border-radius: 2%;
-            box-shadow: gray 0 0 10px; 
+            box-shadow: gray 0 0 5px; 
             height: 300px;
             width: 200px;
          }    
@@ -557,9 +558,6 @@
 /* Container for timer */
 .blanks{
    display: contents;
-}
-.kittext{
-   
 }
 .Fcountdown-container{
 background-color: white;
@@ -610,7 +608,7 @@ background-color: white;
 /* Main Titles Between Sections */
 main{
    margin: 0px 0 35px 15px; 
-   text-transform: uppercase;
+   text-transform: capitalize;
    font-weight:bolder ;
    font-size: 1.5rem;
 }
@@ -632,9 +630,8 @@ main{
             margin: 2px;
             text-indent: -99999999px;
             background-position: center;
-            background-repeat: no-repeat;
-                 
-              background-size: cover;       
+            background-repeat: no-repeat; 
+            background-size: cover;       
             
          }
          .winter{background-image: url("Images/winter\ shorts.PNG");}
@@ -694,7 +691,7 @@ main{
             margin-top: -60px;
          }   
          .h-text{
-            text-transform: uppercase;
+            text-transform: capitalize;
             font-weight: 900;
          }
          .hh-text{
@@ -704,6 +701,15 @@ main{
          .descriptions{
              font-size: small; 
          }      
+         .scriptionbackg{
+            text-align: center;
+            background-color: lightgreen;
+            border-radius: 20px;
+            padding: 2px;
+         }  
+         .highlights.sub{
+            margin-top: -50px;
+         }
        /*labels  */
        .productLabels{
          /* color: darkgrey; */
@@ -730,6 +736,13 @@ main{
             
             
          }
+         footer ul li:first-child{
+            font-size:small ;
+            margin-right: auto;
+         }
+         .copyright{
+            font-size: x-small;
+            }
          footer ul li{ 
             margin-right: 20px;            
          }
@@ -841,12 +854,11 @@ main{
             margin-top: 300px;
          }
             main{
-   margin: 25px 0px 5px 10px; 
-   text-transform: uppercase;
-   font-weight:bolder ;
-   font-size: 1.5rem;
-   
-}
+         margin: 25px 0px 5px 10px; 
+         text-transform: capitalize;
+         font-weight:bolder ;
+         font-size: 1.5rem;
+         }
 
 
 
@@ -900,6 +912,12 @@ main{
                padding: 0;
                margin-left: -25px;
             }
+      main{
+      margin: 10px 0px 5px 20px; 
+      text-transform: capitalize;
+      font-weight:bolder ;
+      font-size: 1.3rem;
+       }
 /* This is temporay margin to hid kit */
 
 .Fcountdown-container{

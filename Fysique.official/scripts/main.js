@@ -119,3 +119,15 @@ fetch("shipment.json")
             return{ name: user.name, email: user.email, element: card}
         })
     })
+
+    // copyright year
+    document.addEventListener("DOMContentLoaded", () => {
+  // 1. Select ALL elements with the class "copyright-year"
+  const yearElements = document.querySelectorAll(".copyright-year");
+  const currentYear = new Date().getFullYear();
+  
+  // 2. Loop through each element found and update its text
+  yearElements.forEach(element => {
+    element.textContent = currentYear;
+  });
+});

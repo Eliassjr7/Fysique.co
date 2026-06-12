@@ -1,0 +1,370 @@
+[
+  {
+    "id": 1,
+    "name": "One-Time-Only",
+    "url": "Images/MenCS.JPG",
+    "price": "$",
+    "email": "May 15 - May 30 -- 1 of 10",
+    "redirectUrl":"MenLongSleeve.html"
+  },
+  {
+    "id": 2,
+    "name": "Red Mesh Jersey Pump Cover",
+    "price": "$40",
+    "url": "Images/red mesh jersey.webp",
+    "email": "Front & Back Branding",
+     "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Black Mesh Jersy Ppump Cover",
+    "price": "$40",
+    "url": "Images/black mesh jersey.webp",
+    "email": "Front & Back Branding",
+     "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Black Boxy Crop Pump Cover",
+    "price": "$35",
+    "url": "Images/black boxy crop pump cover.webp",
+    "email": "Front Branding",
+     "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "White Cropped Jersey Pump Cover",
+    "price": "$35",
+    "url": "Images/women white jersey.webp",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Black Cropped Jersey Pump Cover",
+    "price": "$35",
+    "url": "Images/women black jersey.webp",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Pink Cropped Jersey Pump Cover",
+    "price": "$35",
+    "url": "Images/women pink jersey.webp",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Classic Gray Cropped Hoodie",
+    "price": "$37",
+    "url": "Images/grey cropped hoodie.webp",
+    "email": "Front & Back Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+  {
+    "id": 3,
+    "name": "Classic Black Cropped Hoodie",
+    "url": "Images/black cropped hoodie.webp",
+    "price": "$37",
+    "email": "Front & Back Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 17,
+    "name": "Classic Gray Sweatshorts",
+    "url": "Images/grey sweatshorts.webp",
+    "price":"$30",
+    "email": "Front Branding",
+     "redirectUrl":"WomenSweatpants.html"
+  },
+   {
+    "id": 18,
+    "name": "Classic Black Sweatshorts",
+    "url": "Images/black sweatshorts.webp",
+    "price":"$30",
+    "email": "Front Branding",
+     "redirectUrl":"WomenSweatpants.html"
+  },
+  {
+    "id": 4,
+    "name": "Classic Black Fit Hoodie",
+    "url": "Images/black hoodie.webp",
+    "price": "$33",
+    "email": "Front & Back Branding",
+     "redirectUrl":"MenHoodies.html"
+  },
+  {
+    "id": 5,
+    "name": "Classic Gray Fit Hoodie",
+    "url": "Images/grey hoodie.webp",
+    "price": "$33",
+    "email": "Front & Back Branding",
+     "redirectUrl":"MenHoodies.html"
+  },
+  {
+    "id": 6,
+    "name": "Classic Navy Blue Fit Hoodie",
+    "url": "Images/navy blue hoodie.webp",
+    "price": "$33",
+    "email": "Front & Back Branding",
+     "redirectUrl":"MenHoodies.html"
+  },
+  {
+    "id": 7,
+    "name": "Classic Black Straight Sweatpants",
+    "url": "Images/black sweatpants.webp",
+    "price": "$33",
+    "email": "Front Branding",
+     "redirectUrl":"MenSweatpants.html"
+  },
+  {
+    "id": 8,
+    "name": "Classic Gray Straight Sweatpants",
+    "url": "Images/grey sweatpants.webp",
+    "price": "$33",
+    "email": "Front Branding",
+     "redirectUrl":"MenSweatpants.html"
+  },
+  {
+    "id": 9,
+    "name": "Classic Navy Blue Straight Sweatpants",
+    "url": "Images/navy blue sweatpants.webp",
+    "price":"$33",
+    "email": "Front Branding",
+     "redirectUrl":"MenSweatpants.html"
+  },
+   {
+    "id": 19,
+    "name": "Gray Long Sleeve Compression T-shirt",
+    "url": "Images/gray long sleeve bl compression.webp",
+    "price":"$25",
+    "email": "Black Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 20,
+    "name": "Gray Short Sleeve Compression T-shirt",
+    "url": "Images/gray short sleeve bl compression.webp",
+    "price":"$20",
+    "email": "Black Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 21,
+    "name": "Gray Long Sleeve Compression T-shirt",
+    "url": "Images/gray long sleeve wl compression.webp",
+    "price":"$25",
+    "email": "White Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 22,
+    "name": "Gray Short Sleeve Compression T-shirt",
+    "url": "Images/gray short sleeve wl compression.webp",
+    "price":"$20",
+    "email": "White Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 23,
+    "name": "Black Long Sleeve Compression T-shirt",
+    "url": "Images/black long sleeve wl compression.webp",
+    "price":"$25",
+    "email": "White Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 24,
+    "name": "Black Short Sleeve Compression T-shirt",
+    "url": "Images/black short sleeve wl compression.webp",
+    "price":"$20",
+    "email": "White Front Branding",
+     "redirectUrl":"MenCompression.html"
+  },
+   {
+    "id": 25,
+    "name": "Gray Blue High-Waisted Legging Shorts",
+    "url": "Images/gray blue shorts.webp",
+    "price":"$34",
+    "email": "Front & Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 26,
+    "name": "Black High-Waisted Legging Shorts",
+    "url": "Images/black shorts.webp",
+    "price":"$34",
+    "email": "Front & Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 12,
+    "name": "White High-Waisted Legging Shorts",
+    "url": "Images/white shorts.webp",
+    "price":"$34",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 27,
+    "name": "Dark Gray High-Waisted Legging Shorts",
+    "url": "Images/dark gray shorts.webp",
+    "price":"$34",
+    "email": "Front & Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 28,
+    "name": "Purple High-Waisted Legging Shorts",
+    "url": "Images/purple shorts.webp",
+    "price":"$34",
+    "email": "Front & Rear branding",
+     "redirectUrl":"WomenShorts.html"
+  },
+   {
+    "id": 29,
+    "name": "Gray Blue Sports Bra",
+    "url": "Images/gray blue sports bra.webp",
+    "price":"$31",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+     {
+    "id": 30,
+    "name": "Dark Gray Sports Bra",
+    "url": "Images/dark gray sports bra.webp",
+    "price":"$31",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+     {
+    "id": 31,
+    "name": "Purple Sports Bra",
+    "url": "Images/purple sports bra.webp",
+    "price":"$31",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 32,
+    "name": "Black Sports Bra",
+    "url": "Images/black sports bra.webp",
+    "price":"$31",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 15,
+    "name": "White Sports Bra",
+    "url": "Images/white sports bra.webp",
+    "price":"$31",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 16,
+    "name": "Criss Cross Black Yoga Sports Bra",
+    "url": "Images/cris cros black sports bra.webp",
+    "price":"$27",
+    "email": "Front Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 14,
+    "name": "Classic Haze Blue Yoga Sports Bra",
+    "url": "Images/haze blue sports bra.webp",
+    "price":"$29",
+    "email": "Front & Back Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 13,
+    "name": "Classic Black Yoga Sports Bra",
+    "url": "Images/classic black sports bra.webp",
+    "price":"$29",
+    "email": "Front & Back Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+  {
+    "id": 10,
+    "name": "Classic High-Waisted Black Yoga Leggings",
+    "url": "Images/black leggings.webp",
+    "price": "$36",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenLeggings.html"
+  },
+   {
+    "id": 11,
+    "name": "Classic High-Waisted Haze Blue Yoga Leggings",
+    "url": "Images/haze blue leggings.webp",
+    "price":"$36",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenLeggings.html"
+  },
+   {
+    "id": 33,
+    "name": "Sorona Fabric Tank Top",
+    "url": "Images/black tanktop.webp",
+    "price":"$35",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"MenTankTops.html"
+  },
+   {
+    "id": 33,
+    "name": "Gray Hooded Sports Jacket",
+    "url": "Images/gray hooded sports jacket.webp",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "Dark Blue Hooded Sports Jacket",
+    "url": "Images/dark blue hooded sports jacket.webp",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Hooded Sports Jacket",
+    "url": "Images/black hooded sports jacket.webp",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenWindBreakers.html"
+  },
+   {
+    "id": 33,
+    "name": "White Slim Fit Jacket",
+    "url": "Images/white slim fit jacket.webp",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Light Purple Slim Fit Jacket",
+    "url": "Images/purple slim fit jacket.webp",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Slim Fit Jacket",
+    "url": "Images/black slim fit jacket.webp",
+    "price":"$50",
+    "email": "Front Branding",
+     "redirectUrl":"WomenHoodies.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Striped Shorts",
+    "url": "Images/black striped shorts.webp",
+    "price":"$25",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
+  }
+]

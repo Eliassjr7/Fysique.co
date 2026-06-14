@@ -358,11 +358,11 @@
         background-size: 110px;
         width: 150px;
         height: 30px;
-        text-indent: -99999999px;
+        color: transparent;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);   
-        z-index: 1;     
+        z-index: 9;    
     }    
 
 /* Product display for the different pages  */
@@ -493,7 +493,7 @@
             background-size: cover;
             background-position: center;     
             background-repeat: no-repeat;       
-            text-indent: -999999px; 
+            color: transparent;
             display: flex;
             flex-direction: column; 
 
@@ -632,7 +632,7 @@ main{
             background-color: black;
             color: white;
             margin: 2px;
-            text-indent: -99999999px;
+            color: transparent;
             background-position: center;
             background-repeat: no-repeat; 
             background-size: cover;       
@@ -642,8 +642,8 @@ main{
          .spring{background-image: url("Images/Hoodie\ 2.png");}
          .summer{background-image: url("Images/spring\ leggings.jpg");}
          .fall{background-image: url("Images/sports\ bra.png");}
-         .men{background-image: url("Images/Cap.jpeg");}
-         .women{background-image: url("Images/Bag.jpeg");}
+         .men{background-image: url("Images/Bag.jpeg");}
+         .women{background-image: url("Images/Cap.jpeg");}
          .accessories{background-image: url("Images/Belt.jpeg");}
          .lifting{background-image: url("Images/short\ sleeve.jpeg");}
          .running{background-image: url("Images/Long\ Sleeve\ Compression.jpeg");}
@@ -653,7 +653,8 @@ main{
          
 /* mobile categories fix the display with caption and the different pictures*/
     .moblie-collection{ 
-        overflow: hidden;overflow-x: auto;
+        overflow: hidden;
+        overflow-x: auto;
         margin: 20px 0 20px 0;
         padding: 0px;
         scrollbar-width: none;
@@ -672,15 +673,15 @@ main{
         /* background-size: 150%; */
         background-size: cover;
         background-repeat: no-repeat;
-        text-indent: -99999999px;
+        color: transparent;
         background-position: center;
     }  
     .mpic1{background-image: url(Images/winter\ shorts.PNG);}
     .mpic2{background-image: url(Images/Hoodie\ 2.png);}
     .mpic3{background-image: url(Images/spring\ leggings.jpg);}
     .mpic4{background-image: url(Images/sports\ bra.png);}
-    .mpic5{background-image: url(Images/Cap.jpeg);}
-    .mpic6{background-image: url(Images/Bag.jpeg);}
+    .mpic5{background-image: url(Images/Bag.jpeg);}
+    .mpic6{background-image: url(Images/Cap.jpeg);}
     .mpic7{background-image: url(Images/Belt.jpeg);}
     .mpic8{background-image: url(Images/short\ sleeve.jpeg);}
     .mpic9{background-image: url(Images/Long\ Sleeve\ Compression.jpeg);}

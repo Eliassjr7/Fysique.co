@@ -8,6 +8,70 @@
     "redirectUrl":"MenLongSleeve.html"
   },
   {
+    "id": 1,
+    "name": "Gray Boxy Oversized T-Shirt",
+    "price": "$40",    
+    "url": "Images/gray boxy over-sized.webp",
+    "email": "Front Branding",
+    "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 1,
+    "name": "Black Boxy Oversized T-Shirt",
+    "price": "$40",
+    "url": "Images/black boxy over-sized.webp",
+    "email": "Front Branding",
+    "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 1,
+    "name": "White Boxy Oversized T-Shirt",
+    "price": "$40",
+    "url": "Images/white boxy over-sized.webp",
+    "email": "Front Branding",
+    "redirectUrl":"MenOversizedT-shirts.html"
+  },
+  {
+    "id": 2,
+    "name": "Static Black Quarter-Zip Raglan Long Sleeve T-Shirt",
+    "price": "$35",
+    "url": "Images/men black quarter-zip.png",
+    "email": "Front Branding",
+     "redirectUrl":"MenLongSleeve.html"
+  },
+  {
+    "id": 2,
+    "name": "Static Gray Quarter-Zip Performance Long Sleeve T-Shirt",
+    "price": "$35",
+    "url": "Images/men gray quarter-zip.png",
+    "email": "Front Branding",
+     "redirectUrl":"MenLongSleeve.html"
+  },
+  {
+    "id": 2,
+    "name": "Static Blue Quarter-Zip Performance Long Sleeve T-Shirt",
+    "price": "$35",
+    "url": "Images/men blue quarter-zip.png",
+    "email": "Front Branding",
+     "redirectUrl":"WomenLongSleeve.html"
+  },
+  {
+    "id": 2,
+    "name": "Black Quarter-Zip Long Sleeve Pullover",
+    "price": "$29",
+    "url": "Images/black pullover.webp",
+    "email": "Front Branding",
+     "redirectUrl":"WomenLongSleeve.html"
+  },
+  {
+    "id": 2,
+    "name": "White Quarter-Zip Long Sleeve Pullover",
+    "price": "$29",
+    "url": "Images/white pullover.webp",
+    "email": "Front Branding",
+     "redirectUrl":"WomenLongSleeve.html"
+  },
+  {
     "id": 2,
     "name": "Red Mesh Jersey Pump Cover",
     "price": "$40",
@@ -263,6 +327,22 @@
     "email": "Front & Rear Branding",
      "redirectUrl":"WomenSportsBras.html"
   },
+  {
+    "id": 32,
+    "name": "Black Pleated Sports Bra",
+    "url": "Images/black pleated sports bra.png",
+    "price":"$29",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
+   {
+    "id": 15,
+    "name": "White Pleated Sports Bra",
+    "url": "Images/white pleated sports bra.png",
+    "price":"$29",
+    "email": "Rear Branding",
+     "redirectUrl":"WomenSportsBras.html"
+  },
    {
     "id": 16,
     "name": "Criss Cross Black Yoga Sports Bra",
@@ -300,6 +380,22 @@
     "name": "Classic High-Waisted Haze Blue Yoga Leggings",
     "url": "Images/haze blue leggings.webp",
     "price":"$36",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenLeggings.html"
+  },
+  {
+    "id": 10,
+    "name": "Black High-Waisted Flare Leggings",
+    "url": "Images/black flared leggings.png",
+    "price": "$40",
+    "email": "Front & Rear Branding",
+     "redirectUrl":"WomenLeggings.html"
+  },
+   {
+    "id": 11,
+    "name": "Leggings",
+    "url": "Images/white flared leggings.png",
+    "price":"$40",
     "email": "Front & Rear Branding",
      "redirectUrl":"WomenLeggings.html"
   },
@@ -366,5 +462,125 @@
     "price":"$25",
     "email": "Front Branding",
      "redirectUrl":"MenShorts.html"
+  },
+   {
+    "id": 33,
+    "name": "Navy Blue Striped Shorts",
+    "url": "Images/navy blue striped shorts.webp",
+    "price":"$25",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Performance Shorts",
+    "url": "Images/black performance shorts.webp",
+    "price":"$40",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
+  },
+   {
+    "id": 33,
+    "name": "White Performance Shorts",
+    "url": "Images/white performance shorts.webp",
+    "price":"$40",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
+  },
+   {
+    "id": 33,
+    "name": "Blue Performance Shorts",
+    "url": "Images/blue performance shorts.webp",
+    "price":"$40",
+    "email": "Front Branding",
+     "redirectUrl":"MenShorts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Black Sweatshirt",
+    "url": "Images/classic black sweatshirt.webp",
+    "price":"$40",
+    "email": "Front Branding",
+     "redirectUrl":"MenSweatshirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Gray Sweatshirt",
+    "url": "Images/classic gray sweatshirt.webp",
+    "price":"$40",
+    "email": "Front Branding",
+     "redirectUrl":"MenSweatshirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Gray Blue Tapered Joggers",
+    "url": "Images/gray blue joggers.png",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenJoggers.html"
+  },
+   {
+    "id": 33,
+    "name": "Black Tapered Track Joggers",
+    "url": "Images/black joggers.png",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenJoggers.html"
+  },
+   {
+    "id": 33,
+    "name": "Army Green Tapered Joggers",
+    "url": "Images/army green joggers.png",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenJoggers.html"
+  },
+   {
+    "id": 33,
+    "name": "Navy Blue Tapered Joggers",
+    "url": "Images/navy blue joggers.png",
+    "price":"$45",
+    "email": "Front Branding",
+     "redirectUrl":"MenJoggers.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Light Gray Short Sleeve T-shirt",
+    "url": "Images/women light gray short sleeve.webp",
+    "price":"$29",
+    "email": "Front Branding",
+     "redirectUrl":"WomenT-shirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Pink Short Sleeve T-shirt",
+    "url": "Images/women pink short sleeve.webp",
+    "price":"$29",
+    "email": "Front Branding",
+     "redirectUrl":"WomenT-shirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Gray Short Sleeve T-shirt",
+    "url": "Images/women gray short sleeve.webp",
+    "price":"$29",
+    "email": "Front Branding",
+     "redirectUrl":"WomenT-shirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Black Short Sleeve T-shirt",
+    "url": "Images/women black short sleeve.webp",
+    "price":"$29",
+    "email": "Front Branding",
+     "redirectUrl":"WomenT-shirts.html"
+  },
+   {
+    "id": 33,
+    "name": "Classic Red Short Sleeve T-shirt",
+    "url": "Images/women red short sleeve.webp",
+    "price":"$29",
+    "email": "Front Branding",
+     "redirectUrl":"WomenT-shirts.html"
   }
 ]

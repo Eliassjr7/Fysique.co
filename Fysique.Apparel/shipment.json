@@ -1,16 +1,8 @@
 [
   {
     "id": 1,
-    "name": "One-Time-Only",
-    "url": "Images/MenCS.JPG",
-    "price": "$",
-    "email": "May 15 - May 30 -- 1 of 10",
-    "redirectUrl":"MenLongSleeve.html"
-  },
-  {
-    "id": 1,
-    "name": "Brown Quarter-Zip One Piece",
-    "url": "Images/ft brown one piece.png",
+    "name": "White Quarter-Zip One Piece",
+    "url": "Images/ft white one piece.jpg",
     "price": "$50",
     "email": "Front & Back Branding",
     "redirectUrl":"WomenOnePiece.html"
@@ -25,16 +17,16 @@
   },
   {
     "id": 1,
-    "name": "Pink Quarter-Zip One Piece",
-    "url": "Images/ft pink one piece.jpg",
+    "name": "Brown Quarter-Zip One Piece",
+    "url": "Images/ft brown one piece.png",
     "price": "$50",
     "email": "Front & Back Branding",
     "redirectUrl":"WomenOnePiece.html"
   },
   {
     "id": 1,
-    "name": "White Quarter-Zip One Piece",
-    "url": "Images/ft white one piece.jpg",
+    "name": "Pink Quarter-Zip One Piece",
+    "url": "Images/ft pink one piece.jpg",
     "price": "$50",
     "email": "Front & Back Branding",
     "redirectUrl":"WomenOnePiece.html"
@@ -287,6 +279,38 @@
     "email": "White Front Branding",
      "redirectUrl":"MenCompression.html"
   },
+  {
+    "id": 1,
+    "name": "Light Purple Flutter Shorts",
+    "url": "Images/wprunning.png",
+    "price": "$34",
+    "email": "Front Branding",
+    "redirectUrl":"WomenShorts.html"
+  },
+  {
+    "id": 1,
+    "name": "Black Flutter Shorts",
+    "url": "Images/wbrunning.png",
+    "price": "$34",
+    "email": "Front Branding",
+    "redirectUrl":"WomenShorts.html"
+  },
+  {
+    "id": 1,
+    "name": "Baby Blue Flutter Shorts",
+    "url": "Images/wbbrunning.png",
+    "price": "$34",
+    "email": "Front Branding",
+    "redirectUrl":"WomenShorts.html"
+  },
+  {
+    "id": 1,
+    "name": "Light Green Flutter Shorts",
+    "url": "Images/wgrunning.png",
+    "price": "$34",
+    "email": "Front Branding",
+    "redirectUrl":"WomenShorts.html"
+  },
    {
     "id": 25,
     "name": "Gray Blue High-Waisted Legging Shorts",
@@ -406,6 +430,38 @@
     "price":"$29",
     "email": "Front & Back Branding",
      "redirectUrl":"WomenSportsBras.html"
+  },
+  {
+    "id": 1,
+    "name": "Red Straight Leg Leggings",
+    "url": "Images/csleggings.png",
+    "price": "$39",
+    "email": "Front & Rear Branding",
+    "redirectUrl":"WomenLeggings.html"
+  },
+  {
+    "id": 1,
+    "name": "Brown Straight Leg Leggings",
+    "url": "Images/brleggings.png",
+    "price": "$39",
+    "email": "Front & Rear Branding",
+    "redirectUrl":"WomenLeggings.html"
+  },
+  {
+    "id": 1,
+    "name": "Navy Blue Straight Leg Leggings",
+    "url": "Images/nbsleggings.png",
+    "price": "$39",
+    "email": "Front & Rear Branding",
+    "redirectUrl":"WomenLeggings.html"
+  },
+  {
+    "id": 1,
+    "name": "Black Straight Leg Leggings",
+    "url": "Images/bsleggings.png",
+    "price": "$39",
+    "email": "Front & Rear Branding",
+    "redirectUrl":"WomenLeggings.html"
   },
   {
     "id": 10,
@@ -646,5 +702,45 @@
     "price":"$20",
     "email": "White Front Branding",
      "redirectUrl":"WomenCompression.html"
+  },
+  {
+    "id": 1,
+    "name": "Light Purple Crewneck Crop Tank Top",
+    "url": "Images/wtankp.webp",
+    "price": "$20",
+    "email": "Front Branding",
+    "redirectUrl":"WomenTankTops.html"
+  },
+  {
+    "id": 1,
+    "name": "Black Crewneck Crop Tank Top",
+    "url": "Images/wtankbl.webp",
+    "price": "$20",
+    "email": "Front Branding",
+    "redirectUrl":"WomenTankTops.html"
+  },
+  {
+    "id": 1,
+    "name": "White Crewneck Crop Tank Top",
+    "url": "Images/wtankw.webp",
+    "price": "$20",
+    "email": "Front Branding",
+    "redirectUrl":"WomenTankTops.html"
+  },
+  {
+    "id": 1,
+    "name": "Brown Crewneck Crop Tank Top",
+    "url": "Images/wtankb.webp",
+    "price": "$20",
+    "email": "Front Branding",
+    "redirectUrl":"WomenTankTops.html"
+  },
+  {
+    "id": 1,
+    "name": "One-Time-Only",
+    "url": "Images/MenCS.JPG",
+    "price": "$",
+    "email": "May 15 - May 30 -- 1 of 10",
+    "redirectUrl":"MenLongSleeve.html"
   }
 ]

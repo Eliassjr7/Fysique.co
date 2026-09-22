@@ -90,7 +90,7 @@ margin-top: 450px;
             content:"";
             position: absolute;
             left:50%;
-            bottom: -10px;
+            bottom: 10px;
             height:1px;
             width: 0;
             background-color: black;
@@ -593,10 +593,10 @@ margin-top: 450px;
             background-image: url("Images/hero1.JPG");
          }
          .hero1{ 
-            background-image: url("Images/hero2.JPG");
+            background-image: url("Images/try.jpeg");
          }
          .hero2{ 
-            background-image: url("Images/hero3.jpg");
+            background-image: url("Images/hero2.JPG");
          }
          .img-descriptions{
             margin-top: auto;

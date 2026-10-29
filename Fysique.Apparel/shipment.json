@@ -585,38 +585,6 @@
   },
    {
     "id": 33,
-    "name": "Gray Blue Tapered Joggers",
-    "url": "Images/gray blue joggers.png",
-    "price":"$45",
-    "email": "Front Branding",
-     "redirectUrl":"MenJoggers.html"
-  },
-   {
-    "id": 33,
-    "name": "Black Tapered Track Joggers",
-    "url": "Images/black joggers.png",
-    "price":"$45",
-    "email": "Front Branding",
-     "redirectUrl":"MenJoggers.html"
-  },
-   {
-    "id": 33,
-    "name": "Army Green Tapered Joggers",
-    "url": "Images/army green joggers.png",
-    "price":"$45",
-    "email": "Front Branding",
-     "redirectUrl":"MenJoggers.html"
-  },
-   {
-    "id": 33,
-    "name": "Navy Blue Tapered Joggers",
-    "url": "Images/navy blue joggers.png",
-    "price":"$45",
-    "email": "Front Branding",
-     "redirectUrl":"MenJoggers.html"
-  },
-   {
-    "id": 33,
     "name": "Classic Light Gray Crop T-shirt",
     "url": "Images/women light gray short sleeve.webp",
     "price":"$29",

@@ -436,6 +436,11 @@ margin-top: 450px;
     margin-top: .25rem;
         margin-bottom: .35rem;
  }
+ .productCard > .bodies{
+      margin-bottom: 1em;
+        font-size: .8rem;
+        color: red;
+ }
  .productCard > .body{
       margin-bottom: 1em;
         font-size: .8rem;

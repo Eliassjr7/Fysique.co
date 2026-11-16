@@ -83,43 +83,83 @@ $(function(){
     setupSlider('#productslider3',5);
 });
 
-const userCardTemplate = document.querySelector("[data-user-template]")
-const userCardContainer = document.querySelector("[data-user-cards-container]")
-const searchInput = document.querySelector("[data-search]")
+const userCardTemplate = document.querySelector("[data-user-template]");
+const userCardContainer = document.querySelector("[data-user-cards-container]");
+const searchInput = document.querySelector("[data-search]");
+const filterButtons = document.querySelectorAll(".filter-btn");
 
-let users = []
+let users = [];
+let activeGender = ""; // Tracks "men", "women", or "" (none)
 
-searchInput.addEventListener("input", e => {
-    const value = e.target.value.toLowerCase()
+// Single function to handle both search text and gender button filtering
+function filterCards() {
+    const searchValue = searchInput.value.toLowerCase();
+
     users.forEach(user => {
-        const isVisible =
-        user.name.toLowerCase().includes(value) ||
-        user.email.toLowerCase().includes(value)
-        user.element.classList.toggle("hide",!isVisible)
-    })
-})
+        const matchesSearch = 
+            user.name.toLowerCase().includes(searchValue) ||
+            user.email.toLowerCase().includes(searchValue);
 
+        // Checks if redirectUrl starts with "men" or "women" (ignoring leading slashes)
+        const cleanUrl = user.redirectUrl.toLowerCase().replace(/^\/+/, "");
+        const matchesGender = activeGender === "" || cleanUrl.startsWith(activeGender);
+
+        const isVisible = matchesSearch && matchesGender;
+        user.element.classList.toggle("hide", !isVisible);
+    });
+}
+
+// Listen for typing in the search input
+searchInput.addEventListener("input", filterCards);
+
+// Listen for clicks on the Mens and Womens buttons
+filterButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+        const selectedFilter = btn.dataset.filter;
+
+        // If clicking the already-active button, turn it off; otherwise activate it
+        if (activeGender === selectedFilter) {
+            activeGender = "";
+            btn.classList.remove("active");
+        } else {
+            activeGender = selectedFilter;
+            filterButtons.forEach(b => b.classList.remove("active"));
+            btn.classList.add("active");
+        }
+
+        filterCards();
+    });
+});
 
 fetch("shipment.json")
     .then(res => res.json())
-    .then(data =>{
-       users = data.map(user => {
-            const card = userCardTemplate.content.cloneNode(true).children[0]
-            const Image = card.querySelector("[data-image]")
-            const header = card.querySelector("[data-header]")
-            const body = card.querySelector("[data-body]")
-            const Price = card.querySelector("[data-cost]")
-            card.addEventListener("click", () =>{
+    .then(data => {
+        users = data.map(user => {
+            const card = userCardTemplate.content.cloneNode(true).children[0];
+            const Image = card.querySelector("[data-image]");
+            const header = card.querySelector("[data-header]");
+            const body = card.querySelector("[data-body]");
+            const Price = card.querySelector("[data-cost]");
+
+            card.addEventListener("click", () => {
                 window.location.href = user.redirectUrl;
-            }); 
-            Image.src = user.url
-            header.textContent = user.name
-            body.textContent = user.email
-            Price.textContent = user.price
-            userCardContainer.append(card)
-            return{ name: user.name, email: user.email, element: card}
-        })
-    })
+            });
+
+            Image.src = user.url;
+            header.textContent = user.name;
+            body.textContent = user.email;
+            Price.textContent = user.price;
+            userCardContainer.append(card);
+
+            // Include redirectUrl in the returned object so filterCards() can read it
+            return { 
+                name: user.name, 
+                email: user.email, 
+                redirectUrl: user.redirectUrl, 
+                element: card 
+            };
+        });
+    });
 
     // copyright year
     document.addEventListener("DOMContentLoaded", () => {

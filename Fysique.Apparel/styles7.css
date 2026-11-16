@@ -214,6 +214,9 @@ margin-top: 450px;
         .icon.active{
         color: black;
         } 
+.search-icon.active .icon {
+    transform: rotate(230deg); 
+}
         
 /* search page */
 .off-screen-search{
@@ -232,9 +235,28 @@ margin-top: 450px;
 
    right:0px;
 }
+/* Search buttons */
+.filter-buttons{
+   display: flex;           /* Required for justify-content to work */
+    justify-content: center; /* Centers the buttons inside .filter-buttons */
+    align-items: center;
+}
+.filter-btn {
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
 
+.filter-btn.active {
+    background-color: black;
+    color: white;
+}
 .search-wrapper{
-         margin: 10px;
+         margin: 5px;
          display: flex;
          flex-direction: column;
          gap: .25rem;
@@ -647,7 +669,7 @@ margin-top: 450px;
 
          }
          .productslider figure img{
-            border: 1px solid white;
+            border: 1px solid none;
             border-radius: 2%;
             box-shadow: gray 0 0 5px; 
             height: 300px;

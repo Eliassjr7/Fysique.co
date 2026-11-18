@@ -820,6 +820,10 @@ main{
     .mpic21{background-image: url(Images/mpic21.jpg);}
     .mpic22{background-image: url(Images/mpic22.png);}
     .mpic23{background-image: url(Images/mpic23.PNG);}
+    /* Accessoies */
+    .mpic24{background-image: url(Images/crossbody.jpg);}
+    .mpic25{background-image: url(Images/backpack.jpg);}
+    
 /* Text at the bottom of the page */
          
          .highlights{
